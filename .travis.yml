@@ -1,0 +1,14 @@
+dist: trusty
+language: node_js
+sudo: false
+git:
+  depth: 5
+
+node_js: lts/*
+
+cache: yarn
+
+jobs:
+  include:
+    - stage: Lint
+      script: yarn lerna run --stream lint
