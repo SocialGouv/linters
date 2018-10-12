@@ -1,6 +1,11 @@
 {
-  "packages": ["packages/*"],
-  "conventionalCommits": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): version %v"
+    }
+  },
   "npmClient": "yarn",
+  "packages": ["packages/*"],
   "version": "0.0.0"
 }
