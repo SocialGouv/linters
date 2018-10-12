@@ -4,9 +4,7 @@
     ":automergeAll",
     ":autodetectPinVersions",
     ":preserveSemverRanges",
+    ":reviewer(douglasduteil)",
     ":semanticCommits"
-  ],
-  "reviewers": [
-    "douglasduteil"
   ]
 }
