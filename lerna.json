@@ -1,7 +1,6 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
+  "conventionalCommits": true,
   "npmClient": "yarn",
   "version": "0.0.0"
 }
