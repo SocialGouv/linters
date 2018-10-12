@@ -3,6 +3,7 @@
     "config:base",
     ":automergeAll",
     ":autodetectPinVersions",
+    ":preserveSemverRanges",
     ":semanticCommits"
   ],
   "reviewers": [
