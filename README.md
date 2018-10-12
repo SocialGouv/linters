@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://github.com/SocialGouv/linters/raw/master/.github/linter_logo.svg?sanitize=true" width="250"/>
   <p align="center">Linters</p>
-  <p align="center" style="font-size: 0.5em">🧹The Social Gouv linters ✨</p>
+  <p align="center" style="font-size: 0.5em">🧹The Social Gouv linters✨</p>
 </h1>
 
 <p align="center">
