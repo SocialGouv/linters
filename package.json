@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SocialGouv/linters#readme",
   "devDependencies": {
-    "lerna": "^3.4.3"
+    "lerna": "3.4.3"
   },
   "workspaces": [
     "packages/*"
