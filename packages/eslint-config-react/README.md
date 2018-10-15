@@ -16,7 +16,7 @@ Add this to your `.eslintrc.yml` file:
 
 ```yaml
 extends:
-  - @socialgouv/eslint-config-react
+  - "@socialgouv/eslint-config-react"
 ```
 
 or add this to your `.eslintrc.json` file:
