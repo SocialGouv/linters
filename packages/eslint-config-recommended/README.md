@@ -5,9 +5,9 @@
 ## Install
 
 ```sh
-$ npm install -D @socialgouv/eslint-config-recommended
+$ npm install -D @socialgouv/eslint-config-recommended eslint prettier
 # or
-$ yarn add -D @socialgouv/eslint-config-recommended
+$ yarn add -D @socialgouv/eslint-config-recommended eslint prettier
 ```
 
 ## Usage
