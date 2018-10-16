@@ -1,9 +1,9 @@
 module.exports = {
   env: {
     browser: true,
-    node: true,
     commonjs: true,
-    es6: true
+    es6: true,
+    node: true
   },
   parserOptions: {
     ecmaVersion: 2018,
