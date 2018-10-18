@@ -5,6 +5,7 @@ module.exports = {
     "plugin:react/recommended",
     "prettier/react"
   ],
+  parser: "babel-eslint",
   plugins: ["jsx-a11y", "react"],
   rules: {}
 };
