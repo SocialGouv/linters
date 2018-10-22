@@ -17,9 +17,15 @@
   },
   "homepage": "https://github.com/SocialGouv/linters#readme",
   "devDependencies": {
+    "husky": "^1.1.2",
     "lerna": "^3.4.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna run --concurrency 1 --stream precommit"
+    }
+  }
 }
