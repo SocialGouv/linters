@@ -1,10 +1,6 @@
 {
   "extends": [
-    "config:base",
-    ":automergeAll",
-    ":autodetectPinVersions",
-    ":preserveSemverRanges",
-    ":reviewer(douglasduteil)",
-    ":semanticCommits"
+    "github>SocialGouv/renovate-config",
+    ":automergeAll"
   ]
 }
