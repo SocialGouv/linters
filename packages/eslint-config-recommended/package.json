@@ -8,6 +8,7 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended",
   "scripts": {
+    "precommit": "lint-staged",
     "lint": "eslint index.js"
   },
   "keywords": [],
@@ -31,6 +32,7 @@
   "dependencies": {
     "eslint-config-prettier": "~3.1.0",
     "eslint-plugin-import": "~2.14.0",
-    "eslint-plugin-prettier": "~3.0.0"
+    "eslint-plugin-prettier": "~3.0.0",
+    "lint-staged": "^7.3.0"
   }
 }
