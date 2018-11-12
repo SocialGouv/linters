@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v0.2.0...v0.2.1) (2018-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to v8 ([#7](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/issues/7)) ([c62944a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/commit/c62944a))
+
+
+
+
+
 # [0.2.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v0.1.2...v0.2.0) (2018-10-18)
 
 
