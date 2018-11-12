@@ -23,3 +23,25 @@
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **eslint-config-recommended** | [`@socialgouv/eslint-config-recommended`](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md) |
 | **eslint-config-react**       | [`@socialgouv/eslint-config-react`](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md)       |
+
+<br>
+<br>
+<br>
+<br>
+
+## Release policy
+
+You need an [Github token](https://github.com/settings/tokens/new) to release.
+
+```sh
+#
+# Bump, push to git and publish to npm
+$ yarn lerna publish
+
+#
+# Publish the tag change log on the Github Release
+$ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-releaser -p angular --verbose
+
+#
+# You might want to add a Gif to your release to make it groovy ;)
+```

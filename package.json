@@ -3,7 +3,8 @@
   "private": true,
   "description": "The Social Gouv linters",
   "scripts": {
-    "lint": "lerna run lint --parallel"
+    "lint": "lerna run lint --parallel",
+    "version": "echo \"We use lerna to release\" && exit 1"
   },
   "repository": {
     "type": "git",
