@@ -36,7 +36,9 @@
 Trigger a custom build on [Travis](https://travis-ci.com/SocialGouv/linters) (in the "More options" right menu) on the `master` branch with a custom config:
 
 ```yml
-env: RELEASE=true
+env:
+  global:
+    - RELEASE=true
 ```
 
 ### Manual
