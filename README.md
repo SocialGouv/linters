@@ -31,6 +31,16 @@
 
 ## Release policy
 
+### Auto
+
+Trigger a custom build on [Travis](https://travis-ci.com/SocialGouv/linters) (in the "More options" right menu) on the `master` branch with a custom config:
+
+```yml
+env: RELEASE=true
+```
+
+### Manual
+
 You need an [Github token](https://github.com/settings/tokens/new) to release.
 
 ```sh
@@ -40,7 +50,7 @@ $ yarn lerna publish
 
 #
 # Publish the tag change log on the Github Release
-$ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-releaser -p angular --verbose
+$ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-releaser -p angular
 
 #
 # You might want to add a Gif to your release to make it groovy ;)
