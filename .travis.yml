@@ -18,6 +18,7 @@ jobs:
       before_deploy:
         - npm config set email ${NPM_EMAIL}
         - npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+        - npm whoami -ddd
       script: yarn lerna publish
       after_success:
         CONVENTIONAL_GITHUB_RELEASER_TOKEN=${GITHUB_TOKEN} npx conventional-github-releaser
