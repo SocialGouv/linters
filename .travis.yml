@@ -18,7 +18,7 @@ jobs:
       before_script:
         - npm config set access public
         - npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-        - npm whoami -ddd
+        - git checkout $TRAVIS_BRANCH
       script: yarn lerna publish
       after_success:
         CONVENTIONAL_GITHUB_RELEASER_TOKEN=${GITHUB_TOKEN} npx conventional-github-releaser
