@@ -18,8 +18,8 @@ jobs:
       before_script:
         - npm config set access public
         - npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-        - git checkout $TRAVIS_BRANCH
-      script: yarn lerna publish
+        - git checkout ${TRAVIS_BRANCH}
+      script: yarn lerna publish --yes
       after_success:
         CONVENTIONAL_GITHUB_RELEASER_TOKEN=${GITHUB_TOKEN} npx conventional-github-releaser
         -p angular
