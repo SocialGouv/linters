@@ -22,7 +22,7 @@ jobs:
         - npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
         - git checkout ${TRAVIS_BRANCH}
         - git config user.name "Social Groovy Bot"
-        - git config user.email "douglas.duteil@sg.social.gouv.fr"
+        - git config user.email "45039513+SocialGroovyBot@users.noreply.github.com"
         - git remote set-url origin https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
       script: yarn lerna publish --yes
       after_success:
