@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SocialGouv/linters#readme",
   "devDependencies": {
-    "husky": "^1.1.4",
+    "husky": "^1.2.0",
     "lerna": "^3.4.3"
   },
   "workspaces": [
