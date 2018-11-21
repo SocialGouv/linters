@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.3 (2018-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to ^8.0.5 ([689d6d4](https://github.com/SocialGouv/linters/commit/689d6d4))
+* **reco:** swap devdep and dependencies -_- ([e53fcf5](https://github.com/SocialGouv/linters/commit/e53fcf5))
+
+
+
+
+
 ## 0.2.2 (2018-11-15)
 
 **Note:** Version bump only for package @socialgouv/linters
