@@ -1,7 +1,7 @@
 {
   "name": "@socialgouv/eslint-config-react",
   "version": "0.3.0",
-  "description": "",
+  "description": "SocialGouv recommended eslint React config",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
