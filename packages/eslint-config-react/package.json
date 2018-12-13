@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-react",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
@@ -25,14 +25,14 @@
     "eslint": "5"
   },
   "dependencies": {
-    "@socialgouv/eslint-config-recommended": "^0.2.3",
+    "@socialgouv/eslint-config-recommended": "^0.3.0",
     "babel-eslint": "^10.0.1",
     "eslint-plugin-jsx-a11y": "~6.1.2",
     "eslint-plugin-react": "~7.11.1"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "prettier": "^1.15.3",
-    "lint-staged": "^8.1.0"
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
   }
 }

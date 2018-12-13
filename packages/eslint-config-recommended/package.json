@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-recommended",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "prettier": "^1.15.3",
-    "lint-staged": "^8.1.0"
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
   }
 }

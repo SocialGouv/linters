@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2018-12-13)
+
+
+### Features
+
+* **pkg:** consider plugins as dependencies ([5808c01](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/commit/5808c01))
+
+
+
+
+
 ## 0.2.3 (2018-11-21)
 
 

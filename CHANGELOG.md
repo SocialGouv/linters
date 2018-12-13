@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2018-12-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^1.15.3 ([94b7285](https://github.com/SocialGouv/linters/commit/94b7285))
+
+
+### Features
+
+* **pkg:** consider plugins as dependencies ([5808c01](https://github.com/SocialGouv/linters/commit/5808c01))
+
+
+
+
+
 ## 0.2.3 (2018-11-21)
 
 
