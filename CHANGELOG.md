@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.4 (2019-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to ~3.4.0 ([9115b74](https://github.com/SocialGouv/linters/commit/9115b74))
+* **deps:** update dependency eslint-config-prettier to ~3.5.0 ([e9776ee](https://github.com/SocialGouv/linters/commit/e9776ee))
+* **deps:** update dependency eslint-plugin-react to ~7.12.4 ([5775be9](https://github.com/SocialGouv/linters/commit/5775be9))
+
+
+
+
+
 ## [0.4.3](https://github.com/SocialGouv/linters/compare/v0.4.2...v0.4.3) (2019-01-03)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.4 (2019-01-17)
+
+**Note:** Version bump only for package @socialgouv/tslint-config-recommended
+
+
+
+
+
 ## 0.4.2 (2019-01-02)
 
 **Note:** Version bump only for package @socialgouv/tslint-config-recommended
