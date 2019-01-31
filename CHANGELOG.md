@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.5 (2019-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ~2.16.0 ([b45c73f](https://github.com/SocialGouv/linters/commit/b45c73f))
+
+
+
+
+
 ## 0.4.4 (2019-01-17)
 
 
