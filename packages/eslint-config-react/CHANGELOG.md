@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2019-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.2.1 ([ceab3ab](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/ceab3ab))
+
+
+### Features
+
+* **eslint-config-react:** auto detect react version by default ([3e51d3d](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/3e51d3d))
+
+
+
+
+
 ## 0.4.5 (2019-01-31)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
