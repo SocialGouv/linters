@@ -7,5 +7,10 @@ module.exports = {
   ],
   parser: "babel-eslint",
   plugins: ["jsx-a11y", "react"],
-  rules: {}
+  rules: {},
+  settings: {
+    react: {
+      version: "detect"
+    }
+  }
 };
