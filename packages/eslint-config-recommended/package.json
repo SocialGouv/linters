@@ -12,7 +12,7 @@
     "lint": "eslint index.js"
   },
   "keywords": [],
-  "author": "Social Gouv <incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
+  "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/SocialGouv/linters/issues"
