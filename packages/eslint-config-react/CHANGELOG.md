@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.6.0 (2019-04-04)
+
+
+### Features
+
+* **eslint-config-react:** add react hooks rules ([#99](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/99)) ([bcd794c](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/bcd794c))
+
+
+
+
+
 ## 0.5.2 (2019-03-08)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
