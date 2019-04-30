@@ -29,10 +29,10 @@ jobs:
         - git config user.name "Social Groovy Bot"
         - git config user.email "45039513+SocialGroovyBot@users.noreply.github.com"
         - git remote set-url origin https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
-      script: yarn lerna publish --yes
-      after_success:
-        CONVENTIONAL_GITHUB_RELEASER_TOKEN=${GITHUB_TOKEN} npx conventional-github-releaser
-        -p angular
+      script:
+        - GH_TOKEN=${GITHUB_TOKEN} yarn lerna version ${LERNA_ARGS:=--yes}
+        - yarn lerna publish from-git --yes
+
 notifications:
   slack:
     secure: feBYpTIU58daBY6xVck1clRPWj+7qWil8hHyzjW1e2AVVmJHkbgrPxAy+AR20V0A0AegJK3AXIdss6eNVtmgUBuH6UjkRO9WPggwmmOcue++SIJcq8ffDoAxIzSgvCuIlZ+xz2eepjgY4j44ciPUcveoXrUdq8fCDbxofcwv3SgN0N8pDKVFAwnzXA0Z6Cwf8JEOWn54d8ghrUyUO7TPfnhQp6sooJaSeuwrZ3JkX9Uwuomi+RbD56MmIsfj1HudW3f45LZLiDQ2ERzwnn5BuAUJg2ngIC+XFlgJHE7aNLZNGxprC6QBUnFfOXNZ2RgWIPqmjNr+XzxUujbG0ZJhxojLkeQ4IxDX4FYiGOsWUth145widiYVmMWIQaixwyaJMo2Fcq+HA+r182WmhIme4iJprNm9mS2qIu8Sm+S9K1dBsCG233xM0M7tG5l3SaQA2pVp3GZWGo2m7/RAYV3RpG2MozkKFZd8rflAQJW43cBIPX0OpqmNKXtQGPZunCG5suMvtaPcJPGMO7EJ5LGTj8z9S5AEb9fZ+JYiCatU3SVam5ToC5XLT6pe/fTEIL9xI1HAqcZQnQ5xunl4wIvd7Pf0uFWosta0JhJgi/4nF6D/gmej524v5YRkdTqkzv1bdLBTDHyepdpSIRwKjS3VBg/hy1p/ZPV1WOPgErN4WmU=
