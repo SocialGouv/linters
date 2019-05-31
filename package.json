@@ -1,21 +1,8 @@
 {
-  "name": "@socialgouv/linters",
   "private": true,
-  "description": "The Social Gouv linters",
   "scripts": {
     "lint": "lerna run lint --parallel"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SocialGouv/linters.git"
-  },
-  "keywords": [],
-  "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/SocialGouv/linters/issues"
-  },
-  "homepage": "https://github.com/SocialGouv/linters#readme",
   "devDependencies": {
     "husky": "^2.3.0",
     "lerna": "^3.14.1"
