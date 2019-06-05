@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.8.0...v0.9.0) (2019-06-05)
+
+
+### Features
+
+* **tslint-config-recommended:** disable trailing-comma rule ([aa35c19](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/commit/aa35c19))
+
+
+
+
+
 # [0.8.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.7.2...v0.8.0) (2019-06-05)
 
 

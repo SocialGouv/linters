@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/tslint-config-recommended",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Social Gouv recommended tslint config",
   "main": "index.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "tslint-plugin-prettier": "~2.0.1"
   },
   "devDependencies": {
-    "@socialgouv/eslint-config-recommended": "^0.8.0",
+    "@socialgouv/eslint-config-recommended": "^0.9.0",
     "eslint": "^5.16.0",
     "lint-staged": "^8.1.7",
     "prettier": "^1.17.1",
