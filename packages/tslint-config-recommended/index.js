@@ -8,6 +8,7 @@ module.exports = {
     "interface-name": false,
     "no-implicit-dependencies": false,
     "no-submodule-imports": false,
+    "trailing-comma": false,
     prettier: true
   }
 };
