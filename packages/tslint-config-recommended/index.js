@@ -1,8 +1,9 @@
 module.exports = {
   extends: [
+    "tslint:latest",
+    //
     "tslint-config-prettier",
-    "tslint-plugin-prettier",
-    "tslint:latest"
+    "tslint-plugin-prettier"
   ],
   rules: {
     "interface-name": false,
