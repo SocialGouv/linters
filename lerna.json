@@ -1,12 +1,12 @@
 {
   "command": {
     "version": {
-      "githubRelease": true,
       "conventionalCommits": true,
-      "message": "chore(release): version %v"
+      "message": "chore(release): version %v",
+      "createRelease": "github"
     }
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.9.0"
+  "version": "0.9.1"
 }

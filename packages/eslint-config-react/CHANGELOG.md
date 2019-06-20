@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.9.0...v0.9.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to ^10.0.2 ([95076d0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/95076d0))
+
+
+
+
+
 # [0.9.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.8.0...v0.9.0) (2019-06-05)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react

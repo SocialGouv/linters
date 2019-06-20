@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.9.0...v0.9.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* **tslint-config-recommended:** change extends order ([ef2a32d](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/commit/ef2a32d))
+
+
+
+
+
 # [0.9.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.8.0...v0.9.0) (2019-06-05)
 
 
