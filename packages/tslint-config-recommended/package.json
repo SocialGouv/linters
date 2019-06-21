@@ -34,7 +34,7 @@
     "eslint": "^5.16.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   }
 }
