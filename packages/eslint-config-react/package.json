@@ -22,7 +22,7 @@
   ],
   "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react#readme",
   "peerDependencies": {
-    "eslint": "5"
+    "eslint": "6"
   },
   "dependencies": {
     "@socialgouv/eslint-config-recommended": "^0.9.1",
@@ -32,7 +32,7 @@
     "eslint-plugin-react-hooks": "~1.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2"
   }
