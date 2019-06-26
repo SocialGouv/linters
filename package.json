@@ -4,7 +4,7 @@
     "lint": "lerna run lint --parallel"
   },
   "devDependencies": {
-    "husky": "^2.5.0",
+    "husky": "^2.6.0",
     "lerna": "^3.15.0"
   },
   "workspaces": [
