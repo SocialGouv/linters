@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.3](https://github.com/SocialGouv/linters/compare/v0.9.2...v0.9.3) (2019-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ~2.18.1 ([1f8f37a](https://github.com/SocialGouv/linters/commit/1f8f37a))
+* **deps:** update dependency eslint-plugin-import to ~2.18.2 ([a11fe50](https://github.com/SocialGouv/linters/commit/a11fe50))
+* **deps:** update dependency eslint-plugin-jest to ^22.10.0 ([d3fb09c](https://github.com/SocialGouv/linters/commit/d3fb09c))
+* **deps:** update dependency eslint-plugin-jest to ^22.11.1 ([d3bd681](https://github.com/SocialGouv/linters/commit/d3bd681))
+* **deps:** update dependency eslint-plugin-jest to ^22.12.0 ([b511260](https://github.com/SocialGouv/linters/commit/b511260))
+* **deps:** update dependency eslint-plugin-jest to ^22.13.0 ([19450c1](https://github.com/SocialGouv/linters/commit/19450c1))
+* **deps:** update dependency eslint-plugin-jest to ^22.13.4 ([c5b9600](https://github.com/SocialGouv/linters/commit/c5b9600))
+* **deps:** update dependency eslint-plugin-jest to ^22.13.5 ([64a904e](https://github.com/SocialGouv/linters/commit/64a904e))
+* **deps:** update dependency eslint-plugin-jest to ^22.13.6 ([bba9c7c](https://github.com/SocialGouv/linters/commit/bba9c7c))
+* **deps:** update dependency eslint-plugin-jest to ^22.7.2 ([74ab634](https://github.com/SocialGouv/linters/commit/74ab634))
+* **deps:** update dependency eslint-plugin-jest to ^22.8.0 ([9f8049e](https://github.com/SocialGouv/linters/commit/9f8049e))
+* **deps:** update dependency eslint-plugin-jest to ^22.9.0 ([16bfd3b](https://github.com/SocialGouv/linters/commit/16bfd3b))
+* **deps:** update dependency eslint-plugin-react to ~7.14.3 ([0b256be](https://github.com/SocialGouv/linters/commit/0b256be))
+
+
+
+
+
 ## [0.9.2](https://github.com/SocialGouv/linters/compare/v0.9.1...v0.9.2) (2019-07-02)
 
 
