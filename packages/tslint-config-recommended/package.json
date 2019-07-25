@@ -32,7 +32,7 @@
   "devDependencies": {
     "@socialgouv/eslint-config-recommended": "^0.9.3",
     "eslint": "^6.1.0",
-    "lint-staged": "^9.2.0",
+    "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
