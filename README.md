@@ -20,7 +20,7 @@
 Add linters to your project :
 
 ```sh
-yarn add @socialgouv/eslint-config-recommended eslint-config-react
+yarn add --dev @socialgouv/eslint-config-recommended eslint-config-react
 ```
 
 Create `.eslintrc.yml` :
