@@ -15,6 +15,23 @@
 <br>
 <br>
 
+## Usage
+
+Add linters to your project :
+
+```sh
+yarn add @socialgouv/eslint-config-recommended eslint-config-react
+```
+
+Create `.eslintrc.yml` :
+
+```yml
+root: true
+extends:
+  - "@socialgouv/eslint-config-recommended"
+  - "@socialgouv/eslint-config-react"
+```
+
 ## Packages
 
 > This is a monorepo which contains many tools and packages:
