@@ -1,3 +1,7 @@
+const error = 2;
+const warn = 1;
+const ignore = 0;
+
 module.exports = {
   extends: [
     "@socialgouv/eslint-config-recommended",
@@ -23,8 +27,8 @@ module.exports = {
     "html"
   ],
   rules: {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": error,
+    "react-hooks/exhaustive-deps": warn,
     "simple-import-sort/sort": error,
     "sort-keys-fix/sort-keys-fix": [error, "asc"],
     "import/prefer-default-export": ignore
