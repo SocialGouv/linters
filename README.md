@@ -15,23 +15,6 @@
 <br>
 <br>
 
-## Usage
-
-Add linters to your project :
-
-```sh
-yarn add --dev @socialgouv/eslint-config-recommended eslint-config-react
-```
-
-Create `.eslintrc.yml` :
-
-```yml
-root: true
-extends:
-  - "@socialgouv/eslint-config-recommended"
-  - "@socialgouv/eslint-config-react"
-```
-
 ## Packages
 
 > This is a monorepo which contains many tools and packages:
@@ -41,6 +24,40 @@ extends:
 | **eslint-config-recommended** | [`@socialgouv/eslint-config-recommended`](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md) |
 | **eslint-config-react**       | [`@socialgouv/eslint-config-react`](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md)       |
 | **tslint-config-recommended** | [`@socialgouv/tslint-config-recommended`](https://npmjs.com/package/@socialgouv/tslint-config-recommended) | [![latest](https://img.shields.io/npm/v/@socialgouv/tslint-config-recommended/latest.svg)](https://npmjs.com/package/@socialgouv/tslint-config-recommended) | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/tslint-config-recommended/README.md) |
+
+<br>
+<br>
+<br>
+<br>
+
+## Usage
+
+Each linters as its own REAME. **See links above**  
+For example, as described in [`eslint-config-recommended` README](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md#usage), you can install the config with : 
+
+```sh
+$ npm install -D @socialgouv/eslint-config-recommended eslint prettier
+# or
+$ yarn add -D @socialgouv/eslint-config-recommended eslint prettier
+```
+
+
+Add this to your `.eslintrc.yml` file:
+
+```yaml
+extends:
+  - "@socialgouv/eslint-config-recommended"
+```
+
+or add this to your `.eslintrc.json` file:
+
+```json
+{
+  "extends": ["@socialgouv/eslint-config-recommended"]
+}
+```
+
+And enjoy it.
 
 <br>
 <br>
