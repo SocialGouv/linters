@@ -32,7 +32,7 @@
 
 ## Usage
 
-Each linters as its own REAME. **See links above**  
+Each linters have their own REAME. **See links above**  
 For example, as described in [`eslint-config-recommended` README](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md#usage), you can install the config with : 
 
 ```sh
