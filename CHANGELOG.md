@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.6](https://github.com/SocialGouv/linters/compare/v0.9.5...v0.9.6) (2019-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to ^10.0.3 ([91aadb0](https://github.com/SocialGouv/linters/commit/91aadb0))
+
+
+
+
+
 ## [0.9.5](https://github.com/SocialGouv/linters/compare/v0.9.4...v0.9.5) (2019-08-23)
 
 
