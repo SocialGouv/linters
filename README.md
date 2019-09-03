@@ -30,6 +30,40 @@
 <br>
 <br>
 
+## Usage
+
+Each linters have their own REAME. **See links above**  
+For example, as described in [`eslint-config-recommended` README](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md#usage), you can install the config with : 
+
+```sh
+$ npm install -D @socialgouv/eslint-config-recommended eslint prettier
+# or
+$ yarn add -D @socialgouv/eslint-config-recommended eslint prettier
+```
+
+
+Add this to your `.eslintrc.yml` file:
+
+```yaml
+extends:
+  - "@socialgouv/eslint-config-recommended"
+```
+
+or add this to your `.eslintrc.json` file:
+
+```json
+{
+  "extends": ["@socialgouv/eslint-config-recommended"]
+}
+```
+
+And enjoy it.
+
+<br>
+<br>
+<br>
+<br>
+
 ## Release policy
 
 ### Auto
