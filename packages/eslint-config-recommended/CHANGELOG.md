@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v0.9.8...v0.10.0) (2019-09-11)
+
+
+### Features
+
+* **eslint-config-recommended:** add prefer-const as error ([e39e665](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/commit/e39e665)), closes [#59](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/issues/59)
+
+
+
+
+
 ## [0.9.8](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v0.9.7...v0.9.8) (2019-09-11)
 
 
