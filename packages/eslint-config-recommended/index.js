@@ -16,5 +16,7 @@ module.exports = {
     "plugin:jest/recommended"
   ],
   plugins: ["import", "prettier", "jest"],
-  rules: {}
+  rules: {
+    "prefer-const": 2
+  }
 };
