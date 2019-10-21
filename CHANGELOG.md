@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/SocialGouv/linters/compare/v0.10.0...v0.10.1) (2019-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to ~6.4.0 ([17b34b4](https://github.com/SocialGouv/linters/commit/17b34b4))
+* **deps:** update dependency eslint-plugin-jest to ^22.19.0 ([59179b8](https://github.com/SocialGouv/linters/commit/59179b8))
+* **deps:** update dependency eslint-plugin-prettier to ~3.1.1 ([52f3d05](https://github.com/SocialGouv/linters/commit/52f3d05))
+* **deps:** update dependency eslint-plugin-react to ~7.15.0 ([eb41606](https://github.com/SocialGouv/linters/commit/eb41606))
+* **deps:** update dependency eslint-plugin-react to ~7.15.1 ([ccb1b29](https://github.com/SocialGouv/linters/commit/ccb1b29))
+* **deps:** update dependency eslint-plugin-react to ~7.16.0 ([cbbc312](https://github.com/SocialGouv/linters/commit/cbbc312))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.0 ([18084aa](https://github.com/SocialGouv/linters/commit/18084aa))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.1 ([c93df00](https://github.com/SocialGouv/linters/commit/c93df00))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.2 ([5f55e05](https://github.com/SocialGouv/linters/commit/5f55e05))
+
+
+
+
+
 # [0.10.0](https://github.com/SocialGouv/linters/compare/v0.9.8...v0.10.0) (2019-09-11)
 
 
