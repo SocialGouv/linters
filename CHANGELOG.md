@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/SocialGouv/linters/compare/v0.10.4...v0.11.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ~2.19.1 ([0b0b500](https://github.com/SocialGouv/linters/commit/0b0b5006058d896a71b62341321e8f27c346ecbd))
+
+
+### Features
+
+* **eslint-config-recommended:** disable rule require-atomic-upd… ([#284](https://github.com/SocialGouv/linters/issues/284)) ([60916ba](https://github.com/SocialGouv/linters/commit/60916bace0c762ce0be89608e3096db1442207bd))
+
+
+
+
+
 ## [0.10.4](https://github.com/SocialGouv/linters/compare/v0.10.3...v0.10.4) (2019-12-05)
 
 
