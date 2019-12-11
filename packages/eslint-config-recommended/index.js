@@ -17,6 +17,7 @@ module.exports = {
   ],
   plugins: ["import", "prettier", "jest"],
   rules: {
-    "prefer-const": 2
+    "prefer-const": 2,
+    "require-atomic-updates": 0
   }
 };
