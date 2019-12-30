@@ -2,5 +2,12 @@
   "extends": [
     "github>SocialGouv/renovate-config",
     ":automergeAll"
+  ],
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["major", "minor"],
+      "semanticCommitType": "feat"
+    }
   ]
 }
