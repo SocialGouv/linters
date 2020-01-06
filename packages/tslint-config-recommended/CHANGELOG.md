@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.12.0...v0.13.0) (2020-01-06)
+
+**Note:** Version bump only for package @socialgouv/tslint-config-recommended
+
+
+
+
+
 # [0.12.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.11.2...v0.12.0) (2019-12-31)
 
 **Note:** Version bump only for package @socialgouv/tslint-config-recommended
