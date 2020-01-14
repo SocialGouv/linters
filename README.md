@@ -96,7 +96,7 @@ $ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-relea
 
 [img-npm-react]: https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg
 [img-npm-reco]: https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg
-[img-npm-strict]: https://img.shields.io/npm/v/@socialgouv/eslint-config-strict/latest.svg/latest.svg
+[img-npm-strict]: https://img.shields.io/npm/v/@socialgouv/eslint-config-strict/latest.svg
 [img-npm-ts-reco]: https://img.shields.io/npm/v/@socialgouv/tslint-config-recommended/latest.svg
 [img-readme]: https://img.shields.io/badge/README--green.svg
 
