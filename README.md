@@ -17,13 +17,12 @@
 
 ## Packages
 
-> This is a monorepo which contains many tools and packages:
-
-| Project                       | Package                                                                                                    | Version                                                                                                                                                     | Links                                                                                                                                                       |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **eslint-config-recommended** | [`@socialgouv/eslint-config-recommended`](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-recommended) | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md) |
-| **eslint-config-react**       | [`@socialgouv/eslint-config-react`](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![latest](https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg)](https://npmjs.com/package/@socialgouv/eslint-config-react)             | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md)       |
-| **tslint-config-recommended** | [`@socialgouv/tslint-config-recommended`](https://npmjs.com/package/@socialgouv/tslint-config-recommended) | [![latest](https://img.shields.io/npm/v/@socialgouv/tslint-config-recommended/latest.svg)](https://npmjs.com/package/@socialgouv/tslint-config-recommended) | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/SocialGouv/linters/blob/master/packages/tslint-config-recommended/README.md) |
+| Project                       | Package                                                     | Version                                        | Links                                        |
+| ----------------------------- | ----------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
+| **eslint-config-react**       | [`@socialgouv/eslint-config-react`][link-npm-react]         | [![latest][img-npm-react]][link-npm-react]     | [![README][img-readme]][link-readme-react]   |
+| **eslint-config-recommended** | [`@socialgouv/eslint-config-reco`][link-npm-reco]           | [![latest][img-npm-reco]][link-npm-reco]       | [![README][img-readme]][link-readme-reco]    |
+| **eslint-config-strict**      | [`@socialgouv/eslint-config-strict`][link-npm-strict]       | [![latest][img-npm-strict]][link-npm-strict]   | [![README][img-readme]][link-readme-strict]  |
+| **tslint-config-recommended** | [`@socialgouv/tslint-config-recommended`][link-npm-ts-reco] | [![latest][img-npm-ts-reco]][link-npm-ts-reco] | [![README][img-readme]][link-readme-ts-reco] |
 
 <br>
 <br>
@@ -32,8 +31,8 @@
 
 ## Usage
 
-Each linters have their own REAME. **See links above**  
-For example, as described in [`eslint-config-recommended` README](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md#usage), you can install the config with : 
+Each linter has its own REAME _(see links above)_.
+As described in [`eslint-config-recommended` README](https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md#usage), you can install the config with : 
 
 ```sh
 $ npm install -D @socialgouv/eslint-config-recommended eslint prettier
@@ -92,3 +91,20 @@ $ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-relea
 #
 # You might want to add a Gif to your release to make it groovy ;)
 ```
+
+---
+
+[img-npm-react]: https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg
+[img-npm-reco]: https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg
+[img-npm-strict]: https://img.shields.io/npm/v/@socialgouv/eslint-config-strict/latest.svg/latest.svg
+[img-npm-ts-reco]: https://img.shields.io/npm/v/@socialgouv/tslint-config-recommended/latest.svg
+[img-readme]: https://img.shields.io/badge/README--green.svg
+
+[link-npm-react]: https://npmjs.com/package/@socialgouv/eslint-config-react
+[link-npm-reco]: https://npmjs.com/package/@socialgouv/eslint-config-recommended
+[link-npm-strict]: https://npmjs.com/package/@socialgouv/eslint-config-strict
+[link-npm-ts-reco]: https://npmjs.com/package/@socialgouv/tslint-config-recommended
+[link-readme-react]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md
+[link-readme-reco]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md
+[link-readme-strict]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-strict/README.md
+[link-readme-ts-reco]: https://github.com/SocialGouv/linters/blob/master/packages/tslint-config-recommended/README.md

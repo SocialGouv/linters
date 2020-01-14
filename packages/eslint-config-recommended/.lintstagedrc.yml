@@ -1,4 +1,3 @@
-linters:
-  index.js:
-    - eslint --fix
-    - git add
+index.js:
+  - eslint --fix
+  - git add
