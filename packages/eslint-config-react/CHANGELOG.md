@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.13.0...v0.14.0) (2020-01-14)
+
+
+### Features
+
+* **eslint-config-strict:** create ([#307](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/307)) ([086bf49](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/086bf4911ac2590aa873e50f3aec85149f6d0bce))
+
+
+
+
+
 # [0.13.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.12.0...v0.13.0) (2020-01-06)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
