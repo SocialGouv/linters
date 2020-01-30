@@ -17,12 +17,13 @@
 
 ## Packages
 
-| Project                       | Package                                                     | Version                                        | Links                                        |
-| ----------------------------- | ----------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
-| **eslint-config-react**       | [`@socialgouv/eslint-config-react`][link-npm-react]         | [![latest][img-npm-react]][link-npm-react]     | [![README][img-readme]][link-readme-react]   |
-| **eslint-config-recommended** | [`@socialgouv/eslint-config-reco`][link-npm-reco]           | [![latest][img-npm-reco]][link-npm-reco]       | [![README][img-readme]][link-readme-reco]    |
-| **eslint-config-strict**      | [`@socialgouv/eslint-config-strict`][link-npm-strict]       | [![latest][img-npm-strict]][link-npm-strict]   | [![README][img-readme]][link-readme-strict]  |
-| **tslint-config-recommended** | [`@socialgouv/tslint-config-recommended`][link-npm-ts-reco] | [![latest][img-npm-ts-reco]][link-npm-ts-reco] | [![README][img-readme]][link-readme-ts-reco] |
+| Project                        | Package                                                           | Version                                                  | Links                                             |
+| ------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------- |
+| **eslint-config-react**        | [`@socialgouv/eslint-config-react`][link-npm-react]               | [![latest][img-npm-react]][link-npm-react]               | [![README][img-readme]][link-readme-react]        |
+| **eslint-config-react-strict** | [`@socialgouv/eslint-config-react-strict`][link-npm-react-strict] | [![latest][img-npm-react-strict]][link-npm-react-strict] | [![README][img-readme]][link-readme-react-strict] |
+| **eslint-config-recommended**  | [`@socialgouv/eslint-config-reco`][link-npm-reco]                 | [![latest][img-npm-reco]][link-npm-reco]                 | [![README][img-readme]][link-readme-reco]         |
+| **eslint-config-strict**       | [`@socialgouv/eslint-config-strict`][link-npm-strict]             | [![latest][img-npm-strict]][link-npm-strict]             | [![README][img-readme]][link-readme-strict]       |
+| **tslint-config-recommended**  | [`@socialgouv/tslint-config-recommended`][link-npm-ts-reco]       | [![latest][img-npm-ts-reco]][link-npm-ts-reco]           | [![README][img-readme]][link-readme-ts-reco]      |
 
 <br>
 <br>
@@ -40,23 +41,34 @@ $ npm install -D @socialgouv/eslint-config-recommended eslint prettier
 $ yarn add -D @socialgouv/eslint-config-recommended eslint prettier
 ```
 
+You can either:
 
-Add this to your `.eslintrc.yml` file:
+- add this to your `.eslintrc.yml` file:
 
-```yaml
-extends:
-  - "@socialgouv/eslint-config-recommended"
-```
+  ```yaml
+  extends:
+    - "@socialgouv/eslint-config-recommended"
+  ```
 
-or add this to your `.eslintrc.json` file:
+- or add this to your `.eslintrc.json` file:
 
-```json
-{
-  "extends": ["@socialgouv/eslint-config-recommended"]
-}
-```
+  ```json
+  {
+    "extends": ["@socialgouv/eslint-config-recommended"]
+  }
+  ```
 
-And enjoy it.
+- or add this to your `package.json` file:
+
+  ```json
+  {
+    "eslintConfig": {
+      "extends": ["@socialgouv/eslint-config-recommended"]
+    }
+  }
+  ```
+
+And enjoy it!
 
 <br>
 <br>
@@ -95,16 +107,19 @@ $ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-relea
 ---
 
 [img-npm-react]: https://img.shields.io/npm/v/@socialgouv/eslint-config-react/latest.svg
+[img-npm-react-strict]: https://img.shields.io/npm/v/@socialgouv/eslint-config-react-strict/latest.svg
 [img-npm-reco]: https://img.shields.io/npm/v/@socialgouv/eslint-config-recommended/latest.svg
 [img-npm-strict]: https://img.shields.io/npm/v/@socialgouv/eslint-config-strict/latest.svg
 [img-npm-ts-reco]: https://img.shields.io/npm/v/@socialgouv/tslint-config-recommended/latest.svg
 [img-readme]: https://img.shields.io/badge/README--green.svg
 
 [link-npm-react]: https://npmjs.com/package/@socialgouv/eslint-config-react
+[link-npm-react-strict]: https://npmjs.com/package/@socialgouv/eslint-config-react-strict
 [link-npm-reco]: https://npmjs.com/package/@socialgouv/eslint-config-recommended
 [link-npm-strict]: https://npmjs.com/package/@socialgouv/eslint-config-strict
 [link-npm-ts-reco]: https://npmjs.com/package/@socialgouv/tslint-config-recommended
 [link-readme-react]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md
+[link-readme-react-strict]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react-strict/README.md
 [link-readme-reco]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md
 [link-readme-strict]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-strict/README.md
 [link-readme-ts-reco]: https://github.com/SocialGouv/linters/blob/master/packages/tslint-config-recommended/README.md
