@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/SocialGouv/linters/compare/v0.17.0...v0.18.0) (2020-03-17)
+
+
+### Features
+
+* **deps:** update dependency babel-eslint to ^10.1.0 ([e9e7478](https://github.com/SocialGouv/linters/commit/e9e7478d6175f09b3f0dcdbe70f26a275f9df134))
+* **deps:** update dependency eslint-plugin-jest to ~23.8.1 ([3a6c22e](https://github.com/SocialGouv/linters/commit/3a6c22ed7d8a8226536c99447ac22646011ce95d))
+* **deps:** update dependency eslint-plugin-jest to ~23.8.2 ([212192f](https://github.com/SocialGouv/linters/commit/212192fe9430e5b5a5695b1fb696969db27b1e64))
+* **deps:** update dependency eslint-plugin-react to ~7.19.0 ([726dba4](https://github.com/SocialGouv/linters/commit/726dba47faf84b144f0561bbf72bd80225229188))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.5.0 ([c0d1044](https://github.com/SocialGouv/linters/commit/c0d1044469036b55b7d83019348b832ac3a24b20))
+* **deps:** update dependency eslint-plugin-simple-import-sort to ^5.0.2 ([c259a0b](https://github.com/SocialGouv/linters/commit/c259a0bcec927a8798946c5a6d92d65fc831bad7))
+* **deps:** update dependency tslint-plugin-prettier to ~2.2.0 ([f269045](https://github.com/SocialGouv/linters/commit/f269045100f6091ee4b7c79ae8527c5812ac74f8))
+
+
+
+
+
 # [0.17.0](https://github.com/SocialGouv/linters/compare/v0.16.0...v0.17.0) (2020-02-25)
 
 

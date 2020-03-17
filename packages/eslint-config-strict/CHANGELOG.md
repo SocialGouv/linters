@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.17.0...v0.18.0) (2020-03-17)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-simple-import-sort to ^5.0.2 ([c259a0b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/commit/c259a0bcec927a8798946c5a6d92d65fc831bad7))
+
+
+
+
+
 # [0.17.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.16.0...v0.17.0) (2020-02-25)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-strict

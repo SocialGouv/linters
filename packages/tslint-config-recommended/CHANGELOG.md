@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.17.0...v0.18.0) (2020-03-17)
+
+
+### Features
+
+* **deps:** update dependency tslint-plugin-prettier to ~2.2.0 ([f269045](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/commit/f269045100f6091ee4b7c79ae8527c5812ac74f8))
+
+
+
+
+
 # [0.17.0](https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended/compare/v0.16.0...v0.17.0) (2020-02-25)
 
 **Note:** Version bump only for package @socialgouv/tslint-config-recommended
