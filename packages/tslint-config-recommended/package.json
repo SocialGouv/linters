@@ -22,7 +22,7 @@
   ],
   "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/tslint-config-recommended#readme",
   "peerDependencies": {
-    "prettier": "1",
+    "prettier": "2",
     "tslint": "6"
   },
   "dependencies": {
@@ -33,7 +33,7 @@
     "@socialgouv/eslint-config-recommended": "^0.19.0",
     "eslint": "^6.8.0",
     "lint-staged": "^10.0.9",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.2",
     "tslint": "^6.1.0",
     "typescript": "^3.8.3"
   }
