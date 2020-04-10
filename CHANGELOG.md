@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/SocialGouv/linters/compare/v0.19.0...v0.20.0) (2020-04-10)
+
+
+### Features
+
+* **deps:** update dependency eslint-config-prettier to ~6.10.1 ([efa9eb8](https://github.com/SocialGouv/linters/commit/efa9eb89a3bd43fa65131821a641104068f18f4b))
+* **deps:** update dependency eslint-plugin-import to ~2.20.2 ([22ec8da](https://github.com/SocialGouv/linters/commit/22ec8da3cf19ab6f168491360cfc321e32289c2d))
+* **deps:** update dependency eslint-plugin-react-hooks to v3 ([#358](https://github.com/SocialGouv/linters/issues/358)) ([6fffe4b](https://github.com/SocialGouv/linters/commit/6fffe4bd573f2d00e00fae6676b268cb172aada1))
+* **deps:** update dependency tslint-plugin-prettier to ~2.3.0 ([2789a85](https://github.com/SocialGouv/linters/commit/2789a8529a68e1567c005fb37972177ca7e1118e))
+
+
+
+
+
 # [0.19.0](https://github.com/SocialGouv/linters/compare/v0.18.0...v0.19.0) (2020-03-21)
 
 
