@@ -22,7 +22,7 @@
   ],
   "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict#readme",
   "peerDependencies": {
-    "eslint": "6",
+    "eslint": "7",
     "prettier": "2"
   },
   "dependencies": {
@@ -31,7 +31,7 @@
     "eslint-plugin-sort-keys-fix": "^1.1.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5"
   }
