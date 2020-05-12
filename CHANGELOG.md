@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/SocialGouv/linters/compare/v0.20.0...v0.21.0) (2020-05-12)
+
+
+### Features
+
+* **deps:** update dependency eslint-config-prettier to ~6.11.0 ([a16eac6](https://github.com/SocialGouv/linters/commit/a16eac6034a3e89285919815a9a0c2fee26ec929))
+* **deps:** update dependency eslint-plugin-jest to ~23.10.0 ([0743ccf](https://github.com/SocialGouv/linters/commit/0743ccff4a1f39cbc42f2a10f0d175298edd5239))
+* **deps:** update dependency eslint-plugin-jest to ~23.9.0 ([842d492](https://github.com/SocialGouv/linters/commit/842d492e8dcb6243e12bd00239901d2cdc61aa33))
+* **deps:** update dependency eslint-plugin-prettier to ~3.1.3 ([6317090](https://github.com/SocialGouv/linters/commit/6317090109a97415d5dc0e4fa2b13db3f4c6fb78))
+* **deps:** update dependency eslint-plugin-react-hooks to v4 ([d5750e0](https://github.com/SocialGouv/linters/commit/d5750e0d5fd5684ee0eaa1535f7914d7b6868a44))
+* **deps:** update dependency eslint-plugin-simple-import-sort to ^5.0.3 ([4bd16ab](https://github.com/SocialGouv/linters/commit/4bd16ab34ced0365817afebc202702bd40b2d91b))
+* **deps:** update dependency eslint-plugin-sort-keys-fix to ^1.1.1 ([78f69ff](https://github.com/SocialGouv/linters/commit/78f69ffa09726c368f0dd17f743518f5927eb59c))
+
+
+
+
+
 # [0.20.0](https://github.com/SocialGouv/linters/compare/v0.19.0...v0.20.0) (2020-04-10)
 
 
