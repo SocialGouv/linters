@@ -51,22 +51,11 @@ jobs:
       - name: Lint
         run: yarn lint
 
-  release:
-    needs: [build]
-    if: |
-      github.event_name == 'push' &&
-      github.repository == 'SocialGouv/linters' &&
-      github.ref == 'refs/heads/master'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Set up Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-
-      - uses: actions/checkout@v2
-
       - name: Semantic Release
+        if: |
+          github.event_name == 'push' &&
+          github.repository == 'SocialGouv/linters' &&
+          github.ref == 'refs/heads/master'
         uses: cycjimmy/semantic-release-action@v2
         with:
           extra_plugins: |
