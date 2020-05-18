@@ -6,4 +6,12 @@ plugins:
         yarn lerna version ${nextRelease.version} --no-git-tag-version --yes
       publishCmd: |
         yarn lerna publish from-git
+  - - "@semantic-release/git"
+    - assets:
+        - CHANGELOG.md
+        - lerna.json
+        - package.json
+        - packages/*/CHANGELOG.md
+        - packages/*/package.json
+      message: "chore(release): version ${nextRelease.version}\n\n${nextRelease.notes}"
   - "@semantic-release/github"
