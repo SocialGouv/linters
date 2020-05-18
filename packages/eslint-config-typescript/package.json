@@ -37,6 +37,6 @@
   "scripts": {
     "lint": "eslint -c index.js index.js",
     "test": "jest",
-    "precommit": "lint-staged -c index.js"
+    "precommit": "yarn lint --fix"
   }
 }
