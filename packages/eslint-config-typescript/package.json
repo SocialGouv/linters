@@ -40,7 +40,7 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript",
   "scripts": {
-    "lint": "eslint -c index.js index.js",
+    "lint": "eslint -c index.js *.js",
     "precommit": "lint-staged",
     "test": "jest"
   }

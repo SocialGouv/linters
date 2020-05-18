@@ -1,3 +1,9 @@
+/* eslint "@typescript-eslint/no-require-imports": "off" */
+/* eslint "@typescript-eslint/no-unsafe-assignment": "off" */
+/* eslint "@typescript-eslint/no-unsafe-call": "off" */
+/* eslint "@typescript-eslint/no-unsafe-member-access": "off" */
+/* eslint "@typescript-eslint/no-var-requires": "off" */
+
 const deindent = require("deindent");
 const { CLIEngine } = require("eslint");
 
@@ -53,7 +59,13 @@ test.each([
     configFile: "index.js",
   });
 
-  expect(cli.executeOnText(code, "index.test.js")).toMatchSnapshot();
+  expect(cli.executeOnText(code, "index.test.js")).toMatchSnapshot({
+    results: [
+      {
+        filePath: expect.any(String),
+      },
+    ],
+  });
 });
 
 test.each([
@@ -74,7 +86,13 @@ test.each([
     configFile: "index.js",
   });
 
-  expect(cli.executeOnText(code, "jest.config.js")).toMatchSnapshot();
+  expect(cli.executeOnText(code, "jest.config.js")).toMatchSnapshot({
+    results: [
+      {
+        filePath: expect.any(String),
+      },
+    ],
+  });
 });
 
 test.each([
@@ -104,5 +122,11 @@ test.each([
     configFile: "index.js",
   });
 
-  expect(cli.executeOnText(code, "index.test.js")).toMatchSnapshot();
+  expect(cli.executeOnText(code, "index.test.js")).toMatchSnapshot({
+    results: [
+      {
+        filePath: expect.any(String),
+      },
+    ],
+  });
 });

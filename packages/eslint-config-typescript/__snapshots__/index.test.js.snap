@@ -8,7 +8,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/jest.config.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],
@@ -28,7 +28,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 1,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 1,
       "fixableWarningCount": 0,
       "messages": Array [
@@ -69,7 +69,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 2,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [
@@ -117,7 +117,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 1,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 1,
       "fixableWarningCount": 0,
       "messages": Array [
@@ -158,7 +158,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],
@@ -178,7 +178,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],
@@ -198,7 +198,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],
@@ -218,7 +218,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "/home/x/zzz/github/SocialGouv/linters/packages/eslint-config-typescript/index.test.js",
+      "filePath": Any<String>,
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],
