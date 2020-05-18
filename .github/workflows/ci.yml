@@ -60,8 +60,7 @@ jobs:
       - name: Semantic Release
         if: |
           github.event_name == 'push' &&
-          github.repository == 'SocialGouv/linters' &&
-          github.ref == 'refs/heads/master'
+          github.repository == 'SocialGouv/linters'
         uses: cycjimmy/semantic-release-action@v2
         with:
           extra_plugins: |
