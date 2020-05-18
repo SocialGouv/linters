@@ -10,8 +10,10 @@
     "@typescript-eslint/parser": "^2.24.0"
   },
   "devDependencies": {
-    "@socialgouv/eslint-config-recommended": "^0.22.1",
+    "@types/jest": "^25.2.3",
+    "deindent": "^0.1.0",
     "eslint": "^7.0.0",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.2"
@@ -33,7 +35,8 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript",
   "scripts": {
-    "lint": "eslint index.js",
+    "lint": "eslint -c index.js index.js",
+    "test": "jest",
     "precommit": "lint-staged"
   }
 }

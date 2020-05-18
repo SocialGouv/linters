@@ -51,6 +51,9 @@ jobs:
       - name: Lint
         run: yarn lint
 
+      - name: Test
+        run: yarn Test
+
       - name: Npm Authenticate
         run: |
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc

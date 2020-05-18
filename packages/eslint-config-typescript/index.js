@@ -1,3 +1,5 @@
+//
+
 module.exports = {
   extends: [
     "@socialgouv/eslint-config-recommended",
@@ -19,7 +21,6 @@ module.exports = {
       "error",
       {
         alphabetize: { order: "asc", caseInsensitive: true },
-        "newlines-between": "always",
       },
     ],
   },
@@ -27,6 +28,7 @@ module.exports = {
     {
       files: "jest.config.js",
       rules: {
+        "@typescript-eslint/no-require-imports": "off",
         "@typescript-eslint/no-var-requires": "off",
       },
     },

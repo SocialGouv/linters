@@ -10,7 +10,8 @@
   },
   "private": true,
   "scripts": {
-    "lint": "lerna run --parallel --stream lint"
+    "lint": "lerna run --parallel --stream lint",
+    "test": "lerna run --parallel --stream test"
   },
   "workspaces": [
     "packages/*"
