@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.22.1](https://github.com/SocialGouv/linters/compare/v0.22.0...v0.22.1) (2020-05-18)
+
+
+### Bug Fixes
+
+* trigger patch release ([7ef5837](https://github.com/SocialGouv/linters/commit/7ef58379b0cbcf0e3f85e5ee078bf1db90d5c8b2))
+
+
+
+
+
 # [0.22.0](https://github.com/SocialGouv/linters/compare/v0.21.0...v0.22.0) (2020-05-18)
 
 
