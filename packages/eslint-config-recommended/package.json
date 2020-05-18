@@ -1,30 +1,9 @@
 {
   "name": "@socialgouv/eslint-config-recommended",
-  "version": "0.22.1",
   "description": "Social Gouv default recommended eslint config",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended",
-  "scripts": {
-    "precommit": "lint-staged",
-    "lint": "eslint index.js"
-  },
-  "keywords": [],
+  "version": "0.22.1",
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/SocialGouv/linters/issues"
-  },
-  "files": [
-    "index.js"
-  ],
-  "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended#readme",
-  "peerDependencies": {
-    "eslint": "7",
-    "prettier": "2"
-  },
+  "bugs": "https://github.com/SocialGouv/linters/issues",
   "dependencies": {
     "eslint-config-prettier": "~6.11.0",
     "eslint-plugin-import": "~2.20.2",
@@ -35,5 +14,24 @@
     "eslint": "^7.0.0",
     "lint-staged": "^10.2.4",
     "prettier": "^2.0.5"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended#readme",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "7",
+    "prettier": "2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended",
+  "scripts": {
+    "lint": "eslint index.js",
+    "precommit": "lint-staged"
   }
 }

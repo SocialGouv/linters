@@ -1,18 +1,18 @@
 {
-  "private": true,
-  "scripts": {
-    "lint": "lerna run --parallel --stream lint"
-  },
   "devDependencies": {
     "husky": "^4.2.5",
     "lerna": "^3.21.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "husky": {
     "hooks": {
       "pre-commit": "lerna run --concurrency 1 --stream precommit"
     }
-  }
+  },
+  "private": true,
+  "scripts": {
+    "lint": "lerna run --parallel --stream lint"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
