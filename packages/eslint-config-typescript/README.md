@@ -5,9 +5,9 @@
 ## Install
 
 ```sh
-$ npm install -D @socialgouv/eslint-config-typescript eslint prettier
+$ npm install -D @socialgouv/eslint-config-typescript eslint prettier typescript
 # or
-$ yarn add -D @socialgouv/eslint-config-typescript eslint prettier
+$ yarn add -D @socialgouv/eslint-config-typescript eslint prettier typescript
 ```
 
 ## Usage
