@@ -11,7 +11,7 @@ export default function () {
 export const arrowFn1 = () => "test";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const arrowFn2 = (arg: any): string => `test ${arg as string}`;
+export const arrowFn2 = (arg: any): string => `test ${arg}`;
 
 export class Test {
   // Should indicate that no value is returned (void)

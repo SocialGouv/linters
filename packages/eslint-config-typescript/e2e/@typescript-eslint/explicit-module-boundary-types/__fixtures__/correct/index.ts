@@ -15,8 +15,7 @@ export const fn = function (): number {
 export const arrowFn1 = (arg: string): string => `test ${arg}`;
 
 // All arguments should be typed
-export const arrowFn2 = (arg: string): string => `test ${arg}`;
-export const arrowFn3 = (arg: unknown): string => `test ${arg as string}`;
+export const arrowFn2 = (arg: unknown): string => `test ${arg}`;
 
 // Class is not exported
 class Test {

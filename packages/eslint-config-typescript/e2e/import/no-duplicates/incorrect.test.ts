@@ -9,7 +9,7 @@ import { basename } from "path";
 describe(`import/${basename(__dirname)} error`, () => {
   test.each(fixtures(__dirname, /^incorrect$/).map(fixtureToTestCase))(
     "should invalidate : %s",
-    (_, filePath) => ruleTest(filePath),
+    ruleTest,
     TIMEOUT
   );
 });
