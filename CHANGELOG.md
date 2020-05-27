@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.4](https://github.com/SocialGouv/linters/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-27)
+
+
+### Performance Improvements
+
+* **typescript:** speed up file based tests ([d217bf5](https://github.com/SocialGouv/linters/commit/d217bf5df32c9ac7c861fb38a8f6781160f79240))
+
+
+
+
+
 # [1.0.0-beta.3](https://github.com/SocialGouv/linters/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-27)
 
 
