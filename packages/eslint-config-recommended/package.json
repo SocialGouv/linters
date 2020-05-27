@@ -32,6 +32,7 @@
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended",
   "scripts": {
     "lint": "eslint .",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "yarn lint"
   }
 }

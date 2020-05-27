@@ -53,6 +53,7 @@
     "e2e": "jest",
     "lint": "eslint .",
     "precommit": "lint-staged",
+    "prepush": "yarn lint && yarn test",
     "test": "jest"
   }
 }
