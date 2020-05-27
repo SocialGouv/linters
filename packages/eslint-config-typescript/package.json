@@ -35,8 +35,8 @@
   "keywords": [],
   "license": "Apache-2.0",
   "lint-staged": {
-    "*.js": [
-      "eslint -c index.js --fix"
+    "*.{j,t}s": [
+      "eslint . --fix"
     ]
   },
   "main": "index.js",
