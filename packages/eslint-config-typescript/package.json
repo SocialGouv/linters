@@ -5,13 +5,23 @@
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
   "bugs": "https://github.com/SocialGouv/linters/issues",
   "dependencies": {
-    "@socialgouv/eslint-config-recommended": "^1.0.0-beta.1",
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0"
+    "@socialgouv/eslint-config-recommended": "~1.0.0-beta.1",
+    "@typescript-eslint/eslint-plugin": "~3.0.1",
+    "@typescript-eslint/parser": "~2.24.0",
+    "eslint-import-resolver-typescript": "~2.0.0",
+    "eslint-plugin-simple-import-sort": "~5.0.3",
+    "eslint-plugin-sort-keys-fix": "~1.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/dedent": "^0.7.0",
+    "@types/eslint": "^6.8.1",
     "@types/jest": "^25.2.3",
-    "deindent": "^0.1.0",
+    "@types/node": "^14.0.5",
+    "babel-jest": "^26.0.1",
+    "dedent": "^0.7.0",
     "eslint": "^7.0.0",
     "jest": "^26.0.1",
     "lint-staged": "^10.2.4",
@@ -40,7 +50,8 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript",
   "scripts": {
-    "lint": "eslint -c index.js *.js",
+    "e2e": "jest",
+    "lint": "eslint .",
     "precommit": "lint-staged",
     "test": "jest"
   }

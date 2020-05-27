@@ -1,31 +1,7 @@
 {
+  "extends": "../../tsconfig",
   "compilerOptions": {
-    "allowJs": true,
     "baseUrl": ".",
-    "esModuleInterop": true,
-    "importHelpers": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "noEmitHelpers": true,
-    "noEmitOnError": true,
-    "noFallthroughCasesInSwitch": true,
-    "preserveConstEnums": true,
-    "skipLibCheck": true,
-    //
-    "strict": true,
-    // NOTE(douglasduteil): --strict will enable :
-    // --noImplicitAny
-    // --noImplicitThis
-    // --alwaysStrict
-    // --strictBindCallApply
-    // --strictNullChecks
-    // --strictFunctionTypes
-    // --strictPropertyInitialization
-    // see https://www.typescriptlang.org/docs/handbook/compiler-options.html
-    "noImplicitReturns": true,
-    //
-    "target": "ESNext",
-    "types": ["jest"]
+    "noEmit": true
   }
 }
