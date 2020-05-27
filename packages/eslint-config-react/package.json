@@ -31,7 +31,7 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react",
   "scripts": {
-    "lint": "eslint index.js",
+    "lint": "eslint .",
     "precommit": "lint-staged"
   }
 }

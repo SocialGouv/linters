@@ -14,7 +14,8 @@
   "devDependencies": {
     "eslint": "^7.0.0",
     "lint-staged": "^10.2.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "react": "^16.13.1"
   },
   "files": [
     "index.js"
@@ -31,7 +32,7 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react",
   "scripts": {
-    "lint": "eslint index.js",
+    "lint": "eslint .",
     "precommit": "lint-staged"
   }
 }
