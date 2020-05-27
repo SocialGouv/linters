@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-27)
+
+
+### Features
+
+* **typescript:** turn off @typescript-eslint/restrict-template-expressions rule ([fff3d72](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/commit/fff3d7257af39700eb1a8462cde03ef5fc188b9b))
+
+
+
+
+
 # [1.0.0-beta.2](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v0.25.0...v1.0.0-beta.2) (2020-05-27)
 
 

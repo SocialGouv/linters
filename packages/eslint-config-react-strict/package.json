@@ -1,11 +1,11 @@
 {
   "name": "@socialgouv/eslint-config-react-strict",
   "description": "SocialGouv recommended eslint React config",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
   "bugs": "https://github.com/SocialGouv/linters/issues",
   "dependencies": {
-    "@socialgouv/eslint-config-strict": "^1.0.0-beta.2",
+    "@socialgouv/eslint-config-strict": "^1.0.0-beta.3",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-jsx-a11y": "~6.2.3",
     "eslint-plugin-react": "~7.20.0",
