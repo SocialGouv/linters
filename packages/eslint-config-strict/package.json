@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-strict",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "description": "SocialGouv strict ESLint config.",
   "main": "index.js",
   "publishConfig": {
@@ -26,7 +26,7 @@
     "prettier": "2"
   },
   "dependencies": {
-    "@socialgouv/eslint-config-recommended": "^0.23.0",
+    "@socialgouv/eslint-config-recommended": "^0.24.0",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-plugin-sort-keys-fix": "^1.1.1"
   },
