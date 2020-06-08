@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-react-strict",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "description": "SocialGouv recommended eslint React config",
   "main": "index.js",
   "publishConfig": {
@@ -25,7 +25,7 @@
     "eslint": "7"
   },
   "dependencies": {
-    "@socialgouv/eslint-config-strict": "^0.26.0",
+    "@socialgouv/eslint-config-strict": "^0.27.0",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-jsx-a11y": "~6.2.3",
     "eslint-plugin-react": "~7.20.0",
