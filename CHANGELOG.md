@@ -3,62 +3,67 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-beta.4](https://github.com/SocialGouv/linters/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-27)
-
-
-### Performance Improvements
-
-* **typescript:** speed up file based tests ([d217bf5](https://github.com/SocialGouv/linters/commit/d217bf5df32c9ac7c861fb38a8f6781160f79240))
-
-
-
-
-
-# [1.0.0-beta.3](https://github.com/SocialGouv/linters/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-27)
+# [0.28.0](https://github.com/SocialGouv/linters/compare/v0.27.0...v0.28.0) (2020-06-10)
 
 
 ### Features
 
-* **typescript:** turn off @typescript-eslint/restrict-template-expressions rule ([fff3d72](https://github.com/SocialGouv/linters/commit/fff3d7257af39700eb1a8462cde03ef5fc188b9b))
+* **deps:** update dependency eslint-plugin-import to ~2.21.2 ([#403](https://github.com/SocialGouv/linters/issues/403)) ([146d006](https://github.com/SocialGouv/linters/commit/146d006bc9b114f7fadadbf3d1886c0576282f01))
 
 
 
 
 
-# [1.0.0-beta.2](https://github.com/SocialGouv/linters/compare/v0.25.0...v1.0.0-beta.2) (2020-05-27)
+# [0.27.0](https://github.com/SocialGouv/linters/compare/v0.26.0...v0.27.0) (2020-06-08)
 
 
-### Bug Fixes
+### Features
 
-* trigger patch release ([b0ac160](https://github.com/SocialGouv/linters/commit/b0ac1607e5eb6c1cf3a8825adca278142f12c360))
-
-
-
-# [1.0.0-beta.1](https://github.com/SocialGouv/linters/compare/v0.22.1...v1.0.0-beta.1) (2020-05-18)
-
-
-* feat(eslint-config-typescript)!: migrate our tslint config (#350) ([6cb0bdd](https://github.com/SocialGouv/linters/commit/6cb0bdd6d79cb83f75210db8daf6328d924c6ed5)), closes [#350](https://github.com/SocialGouv/linters/issues/350)
-
-
-### BREAKING CHANGES
-
-* remove `@socialgouv/tslint-config-recommended`
-    - As tslint is deprecated now see palantir/tslint@119458e
+* **deps:** update dependency eslint-plugin-import to ~2.21.1 ([#401](https://github.com/SocialGouv/linters/issues/401)) ([c12f317](https://github.com/SocialGouv/linters/commit/c12f31766e5a58fccb0feb2cb923a25be6ccf5e6))
 
 
 
 
 
-# [1.0.0-beta.1](https://github.com/SocialGouv/linters/compare/v0.22.1...v1.0.0-beta.1) (2020-05-18)
+# [0.26.0](https://github.com/SocialGouv/linters/compare/v0.25.0...v0.26.0) (2020-06-08)
 
 
-* feat(eslint-config-typescript)!: migrate our tslint config (#350) ([6cb0bdd](https://github.com/SocialGouv/linters/commit/6cb0bdd6d79cb83f75210db8daf6328d924c6ed5)), closes [#350](https://github.com/SocialGouv/linters/issues/350)
+### Features
+
+* **deps:** update dependency eslint-plugin-import to ~2.21.0 ([#400](https://github.com/SocialGouv/linters/issues/400)) ([c069267](https://github.com/SocialGouv/linters/commit/c0692670ccecd4e1bd0612417560be9b0c7f437b))
 
 
-### BREAKING CHANGES
 
-* remove `@socialgouv/tslint-config-recommended`
-    - As tslint is deprecated now see palantir/tslint@119458e
+
+
+# [0.25.0](https://github.com/SocialGouv/linters/compare/v0.24.0...v0.25.0) (2020-05-27)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.4 ([#391](https://github.com/SocialGouv/linters/issues/391)) ([49c578a](https://github.com/SocialGouv/linters/commit/49c578a9e88145867fbf4210f13c0c7e5c2880f2))
+
+
+
+
+
+# [0.24.0](https://github.com/SocialGouv/linters/compare/v0.23.0...v0.24.0) (2020-05-27)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jest to ~23.13.2 ([#390](https://github.com/SocialGouv/linters/issues/390)) ([1dee169](https://github.com/SocialGouv/linters/commit/1dee169d70ebb0dbf5f3b12fea5f8a93f2ff6682))
+
+
+
+
+
+# [0.23.0](https://github.com/SocialGouv/linters/compare/v0.22.1...v0.23.0) (2020-05-26)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.3 ([#389](https://github.com/SocialGouv/linters/issues/389)) ([9935954](https://github.com/SocialGouv/linters/commit/99359548ec12f0419311cc73df376aa77bbab028))
 
 
 

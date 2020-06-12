@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-beta.4](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-27)
+# [0.28.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.27.0...v0.28.0) (2020-06-10)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-strict
 
@@ -11,7 +11,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-beta.3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-27)
+# [0.27.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.26.0...v0.27.0) (2020-06-08)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-strict
 
@@ -19,11 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-beta.2](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.25.0...v1.0.0-beta.2) (2020-05-27)
-
-
-
-# [1.0.0-beta.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.22.1...v1.0.0-beta.1) (2020-05-18)
+# [0.26.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.25.0...v0.26.0) (2020-06-08)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-strict
 
@@ -31,7 +27,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-beta.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.22.1...v1.0.0-beta.1) (2020-05-18)
+# [0.25.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.24.0...v0.25.0) (2020-05-27)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-strict
+
+
+
+
+
+# [0.24.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.23.0...v0.24.0) (2020-05-27)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-strict
+
+
+
+
+
+# [0.23.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-strict/compare/v0.22.1...v0.23.0) (2020-05-26)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-strict
 
