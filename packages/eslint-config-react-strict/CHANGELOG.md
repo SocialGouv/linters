@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.30.0...v0.31.0) (2020-06-19)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.3.1 ([#410](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/410)) ([eda302b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/eda302b5e2f692fa8dcb24e997b233396b79e9d9))
+
+
+
+
+
 # [0.30.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.29.0...v0.30.0) (2020-06-18)
 
 
