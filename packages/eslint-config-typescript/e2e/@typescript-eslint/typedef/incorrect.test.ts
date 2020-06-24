@@ -1,15 +1,6 @@
-import {
-  fixtures,
-  fixtureToTestCase,
-  ruleTest,
-  TIMEOUT,
-} from "e2e/rule_tester";
-import { basename } from "path";
+import { ruleTest } from "e2e/rule_tester";
+import { basename, join } from "path";
 
-describe(`@typescript-eslint/${basename(__dirname)} off`, () => {
-  test.each(fixtures(__dirname, /^incorrect$/).map(fixtureToTestCase))(
-    "should invalidate : %s",
-    ruleTest,
-    TIMEOUT
-  );
-});
+const ruleName = `${basename(join(__dirname, ".."))}/${basename(__dirname)}`;
+const goal = basename(__filename, ".test.ts");
+test(`${ruleName} ${goal}`, ruleTest(__filename));

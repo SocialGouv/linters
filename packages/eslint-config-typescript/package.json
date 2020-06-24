@@ -55,7 +55,7 @@
     "e2e": "jest",
     "lint": "eslint .",
     "precommit": "lint-staged",
-    "prepush": "yarn lint && yarn test",
+    "prepush": "yarn lint && yarn test --bail",
     "test": "jest"
   }
 }

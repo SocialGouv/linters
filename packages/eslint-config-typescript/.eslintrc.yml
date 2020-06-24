@@ -7,3 +7,5 @@ overrides:
   - files: "*.ts"
     extends:
       - ./index.js
+    rules:
+      jest/expect-expect: "off"

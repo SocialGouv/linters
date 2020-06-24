@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import/first incorrect 1`] = `
+Object {
+  "errorCount": 1,
+  "fixableErrorCount": 1,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 1,
+      "filePath": StringContaining "e2e/import/first/incorrect.ts",
+      "fixableErrorCount": 1,
+      "fixableWarningCount": 0,
+      "messages": Array [
+        Object {
+          "column": 1,
+          "endColumn": 27,
+          "endLine": 10,
+          "fix": Object {
+            "range": Array [
+              0,
+              183,
+            ],
+            "text": "/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable import/no-unresolved */
+
+// @ts-nocheck
+
+import { x } from \\"./foo\\";
+
+import { y } from \\"./bar\\";
+
+export { x };",
+          },
+          "line": 10,
+          "message": "Import in body of module; reorder to top.",
+          "nodeType": "ImportDeclaration",
+          "ruleId": "import/first",
+          "severity": 2,
+        },
+      ],
+      "source": "/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable import/no-unresolved */
+
+// @ts-nocheck
+
+import { x } from \\"./foo\\";
+
+export { x };
+
+import { y } from \\"./bar\\";
+
+export { y };
+",
+      "warningCount": 0,
+    },
+  ],
+  "usedDeprecatedRules": Array [],
+  "warningCount": 0,
+}
+`;

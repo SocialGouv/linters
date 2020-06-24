@@ -19,5 +19,9 @@ module.exports = {
   rules: {
     "prefer-const": 2,
     "require-atomic-updates": 0,
+
+    // @deprecated since eslint-plugin-jest@23.16.0
+    // https://github.com/jest-community/eslint-plugin-jest/releases/tag/v23.16.0
+    "jest/no-try-expect": "off",
   },
 };
