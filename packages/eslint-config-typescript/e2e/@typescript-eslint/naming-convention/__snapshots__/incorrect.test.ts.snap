@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@typescript-eslint/naming-convention off should invalidate : index.ts 1`] = `
+Object {
+  "errorCount": 28,
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 28,
+      "filePath": StringContaining "e2e/@typescript-eslint/naming-convention/__fixtures__/incorrect/index.ts",
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "messages": Array [
+        Object {
+          "column": 9,
+          "endColumn": 19,
+          "endLine": 8,
+          "line": 8,
+          "message": "Variable name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE, PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 9,
+          "endColumn": 19,
+          "endLine": 9,
+          "line": 9,
+          "message": "Variable name \`camelCase_\` must match one of the following formats: camelCase, UPPER_CASE, PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 22,
+          "endLine": 13,
+          "line": 13,
+          "message": "Function name \`snake_case\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 22,
+          "endLine": 14,
+          "line": 14,
+          "message": "Function name \`UPPER_CASE\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 23,
+          "endLine": 15,
+          "line": 15,
+          "message": "Function name \`_UPPER_CASE\` trimmed as \`UPPER_CASE\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormatTrimmed",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 22,
+          "endLine": 16,
+          "line": 16,
+          "message": "Function name \`PascalCase\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 23,
+          "endLine": 17,
+          "line": 17,
+          "message": "Function name \`_PascalCase\` trimmed as \`PascalCase\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormatTrimmed",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 24,
+          "endColumn": 42,
+          "endLine": 23,
+          "line": 23,
+          "message": "Parameter Property name \`snake_case\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 24,
+          "endColumn": 42,
+          "endLine": 24,
+          "line": 24,
+          "message": "Parameter Property name \`camelCase_\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 19,
+          "endColumn": 30,
+          "endLine": 28,
+          "line": 28,
+          "message": "Method name \`_snake_case\` trimmed as \`snake_case\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormatTrimmed",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 9,
+          "endColumn": 20,
+          "endLine": 30,
+          "line": 30,
+          "message": "Class name \`_PascalCase\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 9,
+          "endColumn": 19,
+          "endLine": 31,
+          "line": 31,
+          "message": "Class name \`UPPER_CASE\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 9,
+          "endColumn": 19,
+          "endLine": 32,
+          "line": 32,
+          "message": "Class name \`snake_case\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 13,
+          "endColumn": 22,
+          "endLine": 36,
+          "line": 36,
+          "message": "Interface name \`camelCase\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 5,
+          "endColumn": 15,
+          "endLine": 39,
+          "line": 39,
+          "message": "Property name \`UPPER_CASE\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 5,
+          "endColumn": 15,
+          "endLine": 40,
+          "line": 40,
+          "message": "Property name \`PascalCase\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 5,
+          "endColumn": 15,
+          "endLine": 41,
+          "line": 41,
+          "message": "Property name \`snake_case\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 13,
+          "endColumn": 23,
+          "endLine": 43,
+          "line": 43,
+          "message": "Interface name \`UPPER_CASE\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 13,
+          "endColumn": 23,
+          "endLine": 46,
+          "line": 46,
+          "message": "Interface name \`snake_case\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 8,
+          "endColumn": 19,
+          "endLine": 52,
+          "line": 52,
+          "message": "Type Alias name \`_PascalCase\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 8,
+          "endColumn": 18,
+          "endLine": 53,
+          "line": 53,
+          "message": "Type Alias name \`UPPER_CASE\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 8,
+          "endColumn": 18,
+          "endLine": 54,
+          "line": 54,
+          "message": "Type Alias name \`snake_case\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 8,
+          "endColumn": 17,
+          "endLine": 55,
+          "line": 55,
+          "message": "Type Alias name \`camelCase\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 22,
+          "endLine": 60,
+          "line": 60,
+          "message": "Property name \`UPPER_CASE\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 22,
+          "endLine": 62,
+          "line": 62,
+          "message": "Property name \`snake_case\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 12,
+          "endColumn": 23,
+          "endLine": 64,
+          "line": 64,
+          "message": "Property name \`_PascalCase\` trimmed as \`PascalCase\` must match one of the following formats: camelCase",
+          "messageId": "doesNotMatchFormatTrimmed",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 24,
+          "endColumn": 34,
+          "endLine": 69,
+          "line": 69,
+          "message": "Type Parameter name \`PascalCase\` must have one of the following prefixes: T",
+          "messageId": "missingAffix",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 25,
+          "endColumn": 36,
+          "endLine": 72,
+          "line": 72,
+          "message": "Type Parameter name \`TUPPER_CASE\` trimmed as \`UPPER_CASE\` must match one of the following formats: PascalCase",
+          "messageId": "doesNotMatchFormatTrimmed",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+      ],
+      "source": "/* eslint-disable @typescript-eslint/no-empty-function */
+/* eslint-disable @typescript-eslint/no-extraneous-class */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
+/* eslint-disable no-inner-declarations */
+
+{
+  const snake_case = 0;
+  const camelCase_ = 0;
+}
+
+{
+  function snake_case() {}
+  function UPPER_CASE() {}
+  function _UPPER_CASE() {}
+  function PascalCase() {}
+  function _PascalCase() {}
+}
+
+{
+  class PascalCase {
+    constructor(
+      private readonly snake_case: string,
+      private readonly camelCase_: string,
+      public readonly _camelCase: string
+    ) {}
+
+    public static _snake_case() {}
+  }
+  class _PascalCase {}
+  class UPPER_CASE {}
+  class snake_case {}
+}
+
+{
+  interface camelCase {
+    camelCase: string;
+    _camelCase: string;
+    UPPER_CASE: string;
+    PascalCase: string;
+    snake_case: string;
+  }
+  interface UPPER_CASE {
+    camelCase: string;
+  }
+  interface snake_case {
+    camelCase: string;
+  }
+}
+
+{
+  type _PascalCase = string;
+  type UPPER_CASE = string;
+  type snake_case = string;
+  type camelCase = string;
+}
+
+{
+  class PascalCase {
+    public UPPER_CASE = \\"\\";
+
+    public snake_case = \\"\\";
+
+    public _PascalCase = \\"\\";
+  }
+}
+
+{
+  interface PascalCase<PascalCase> extends ReadonlyArray<string> {
+    camelCase: PascalCase;
+  }
+  interface PascalCase2<TUPPER_CASE> extends ReadonlyArray<string> {
+    camelCase: TUPPER_CASE;
+  }
+}
+",
+      "warningCount": 0,
+    },
+  ],
+  "usedDeprecatedRules": Array [],
+  "warningCount": 0,
+}
+`;

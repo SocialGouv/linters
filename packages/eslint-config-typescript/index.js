@@ -1,11 +1,17 @@
 //
 
+const { namingConvention } = require("./naming-convention");
+
+//
+
 module.exports = {
   extends: [
     "@socialgouv/eslint-config-recommended",
     //
     "plugin:@typescript-eslint/all",
     "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
     "plugin:import/typescript",
     //
     "prettier/@typescript-eslint",
@@ -29,6 +35,7 @@ module.exports = {
     "@typescript-eslint/prefer-readonly-parameter-types": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/naming-convention": ["error", ...namingConvention],
     "@typescript-eslint/typedef": "off",
     "import/first": "error",
     "import/newline-after-import": "error",
