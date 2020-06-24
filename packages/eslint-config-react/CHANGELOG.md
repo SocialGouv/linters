@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.5](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.35.0...v1.0.0-beta.5) (2020-06-24)
+
+
+
+# [1.0.0-beta.4](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-05-27)
+
+
+
+# [1.0.0-beta.3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-05-27)
+
+
+
+# [1.0.0-beta.2](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.25.0...v1.0.0-beta.2) (2020-05-27)
+
+
+
+# [1.0.0-beta.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.22.1...v1.0.0-beta.1) (2020-05-18)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-react
+
+
+
+
+
 # [0.35.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.34.0...v0.35.0) (2020-06-23)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
