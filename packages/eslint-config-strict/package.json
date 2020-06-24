@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-strict",
-  "version": "0.34.0",
+  "version": "1.0.0-beta.4",
   "description": "SocialGouv strict ESLint config.",
   "main": "index.js",
   "publishConfig": {
