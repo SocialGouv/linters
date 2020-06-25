@@ -6,12 +6,18 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
     strategy:
+      # Don't fast-fail on tag and master
+      fail-fast: ${{ github.event_name == 'pull_request' || (github.ref !=
+        'refs/heads/master' && !startsWith(github.ref, 'refs/tags/')) }}
       matrix:
         node-version:
           - 14.x
+        package:
+          - packages/eslint-config-typescript
+
+    name: ${{ matrix.config.package }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Set up Node.js ${{ matrix.node-version }}
@@ -46,13 +52,30 @@ jobs:
             ${{ runner.os }}-${{ matrix.node-version }}-yarn-
 
       - name: Installing
-        run: yarn --frozen-lockfile --perfer-offline --link-duplicates
+        run: npx @socialgouv/yarn-workspace-focus-install
+          --cwd ${{ matrix.package }}
+          --frozen-lockfile
+          --link-duplicates
+          --perfer-offline
 
       - name: Lint
-        run: yarn lint
+        run: yarn --cwd ${{ matrix.package }} lint
 
       - name: Test
-        run: yarn test
+        run: yarn --cwd ${{ matrix.package }} test
+
+  release:
+    needs:
+      - build
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 14.x
+
+      - uses: actions/checkout@v2
 
       - name: Npm Authenticate
         run: |
