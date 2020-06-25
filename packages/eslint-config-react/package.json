@@ -8,8 +8,11 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react",
   "scripts": {
+    "e2e": "jest",
+    "lint": "eslint .",
     "precommit": "lint-staged",
-    "lint": "eslint index.js"
+    "prepush": "yarn lint && yarn test --bail",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
@@ -25,7 +28,7 @@
     "eslint": "7"
   },
   "dependencies": {
-    "@socialgouv/eslint-config-recommended": "^0.34.0",
+    "@socialgouv/eslint-config-recommended": "^1.0.0-beta.6",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-jsx-a11y": "~6.3.1",
     "eslint-plugin-react": "~7.20.0",
@@ -33,7 +36,10 @@
   },
   "devDependencies": {
     "eslint": "^7.3.1",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
   }
 }

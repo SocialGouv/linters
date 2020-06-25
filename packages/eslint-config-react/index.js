@@ -2,14 +2,15 @@ module.exports = {
   extends: [
     "@socialgouv/eslint-config-recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:react/recommended",
     "prettier/react",
   ],
   parser: "babel-eslint",
-  plugins: ["jsx-a11y", "react", "react-hooks"],
+  plugins: ["jsx-a11y", "react"],
   rules: {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    // Prevent extra closing tags for components without children:
+    "react/self-closing-comp": ["error", { component: true, html: true }],
   },
   settings: {
     react: {
