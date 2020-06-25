@@ -15,6 +15,7 @@ jobs:
           - 14.x
         package:
           - packages/eslint-config-typescript
+          - packages/eslint-config-recommended
 
     name: ${{ matrix.config.package }}
     runs-on: ubuntu-latest
@@ -62,7 +63,7 @@ jobs:
         run: yarn --cwd ${{ matrix.package }} lint
 
       - name: Test
-        run: yarn --cwd ${{ matrix.package }} test
+        run: yarn --cwd ${{ matrix.package }} test --ci
 
   release:
     needs:
