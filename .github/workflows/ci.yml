@@ -14,8 +14,9 @@ jobs:
         node-version:
           - 14.x
         package:
-          - packages/eslint-config-typescript
+          - packages/eslint-config-react
           - packages/eslint-config-recommended
+          - packages/eslint-config-typescript
 
     name: ${{ matrix.package }}
     runs-on: ubuntu-latest
