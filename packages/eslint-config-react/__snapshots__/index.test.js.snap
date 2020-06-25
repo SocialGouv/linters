@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fails with incorrect file 1`] = `
+Object {
+  "errorCount": 4,
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 1,
+  "results": Array [
+    Object {
+      "errorCount": 4,
+      "filePath": StringContaining "eslint-config-react/__fixtures__/incorrect.js",
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 1,
+      "messages": Array [
+        Object {
+          "column": 25,
+          "endColumn": 26,
+          "endLine": 7,
+          "line": 7,
+          "message": "Expected object keys to be in ascending order. 'a' should be before 'b'.",
+          "messageId": "sortKeys",
+          "nodeType": "Property",
+          "ruleId": "sort-keys",
+          "severity": 2,
+        },
+        Object {
+          "column": 25,
+          "endColumn": 26,
+          "endLine": 7,
+          "fix": Object {
+            "range": Array [
+              153,
+              167,
+            ],
+            "text": "a: \\"a\\", b: \\"b\\"",
+          },
+          "line": 7,
+          "message": "Expected object keys to be in ascending order. 'a' should be before 'b'.",
+          "nodeType": "Property",
+          "ruleId": "sort-keys-fix/sort-keys-fix",
+          "severity": 1,
+        },
+        Object {
+          "column": 37,
+          "endColumn": 41,
+          "endLine": 15,
+          "line": 15,
+          "message": "'name' is missing in props validation",
+          "nodeType": "Identifier",
+          "ruleId": "react/prop-types",
+          "severity": 2,
+        },
+        Object {
+          "column": 3,
+          "endColumn": 20,
+          "endLine": 24,
+          "line": 24,
+          "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+          "nodeType": "JSXOpeningElement",
+          "ruleId": "jsx-a11y/alt-text",
+          "severity": 2,
+        },
+        Object {
+          "column": 7,
+          "endColumn": 15,
+          "endLine": 32,
+          "line": 32,
+          "message": "React Hook \\"useState\\" is called in function \\"handleClick\\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter.",
+          "nodeType": "Identifier",
+          "ruleId": "react-hooks/rules-of-hooks",
+          "severity": 2,
+        },
+      ],
+      "source": "/* eslint-disable no-inner-declarations */
+
+import React, { useState } from \\"react\\";
+
+// #region @socialgouv/eslint-config-recommended
+{
+  console.log({ b: \\"b\\", a: \\"a\\", c: \\"c\\" });
+}
+// #endregion
+
+// #region plugin:react/recommended
+{
+  class Hello extends React.Component {
+    render() {
+      return <div>Hello {this.props.name}</div>;
+    }
+  }
+  Hello;
+}
+// #endregion
+
+// #region plugin:jsx-a11y/recommended
+{
+  <img src=\\"foo\\" />;
+}
+// #endregion
+
+// #region plugin:react-hooks/recommended
+{
+  function ComponentWithHookInsideCallback() {
+    function handleClick() {
+      useState();
+    }
+    return <button onClick={handleClick()}>Hello</button>;
+  }
+  ComponentWithHookInsideCallback;
+}
+// #endregion
+",
+      "warningCount": 1,
+    },
+  ],
+  "usedDeprecatedRules": Array [],
+  "warningCount": 1,
+}
+`;
+
+exports[`works with correct file 1`] = `
+Object {
+  "errorCount": 0,
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 0,
+      "filePath": StringContaining "eslint-config-react/__fixtures__/correct.js",
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "messages": Array [],
+      "warningCount": 0,
+    },
+  ],
+  "usedDeprecatedRules": Array [],
+  "warningCount": 0,
+}
+`;
