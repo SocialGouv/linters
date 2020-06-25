@@ -17,14 +17,14 @@ jobs:
           - packages/eslint-config-typescript
           - packages/eslint-config-recommended
 
-    name: ${{ matrix.config.config.package }}
+    name: ${{ matrix.package }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up Node.js ${{ matrix.config.node-version }}
+      - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2-beta
         with:
-          node-version: ${{ matrix.config.node-version }}
+          node-version: ${{ matrix.node-version }}
 
       - name: Get yarn cache directory path
         id: init
@@ -48,22 +48,22 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: ${{ runner.os }}-${{ matrix.config.node-version }}-yarn-${{ hashFiles('yarn.lock') }}
+          key: ${{ runner.os }}-${{ matrix.node-version }}-yarn-${{ hashFiles('yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-${{ matrix.config.node-version }}-yarn-
+            ${{ runner.os }}-${{ matrix.node-version }}-yarn-
 
       - name: Installing
         run: npx @socialgouv/yarn-workspace-focus-install
-          --cwd ${{ matrix.config.package }}
+          --cwd ${{ matrix.package }}
           --frozen-lockfile
           --link-duplicates
           --perfer-offline
 
       - name: Lint
-        run: yarn --cwd ${{ matrix.config.package }} lint
+        run: yarn --cwd ${{ matrix.package }} lint
 
       - name: Test
-        run: yarn --cwd ${{ matrix.config.package }} test --ci
+        run: yarn --cwd ${{ matrix.package }} test --ci
 
   release:
     needs:
