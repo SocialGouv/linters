@@ -1,13 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    commonjs: true,
-    es6: true,
+    es2020: true,
     node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
   },
   extends: [
     "eslint:recommended",
@@ -15,13 +10,37 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:jest/recommended",
   ],
-  plugins: ["import", "prettier", "jest"],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module",
+  },
+  plugins: ["prettier", "sort-keys-fix", "simple-import-sort"],
   rules: {
-    "prefer-const": 2,
-    "require-atomic-updates": 0,
+    //
+    "import/first": "error",
+
+    "import/newline-after-import": "error",
+
+    "import/no-duplicates": "error",
+
+    "import/no-unresolved": "error",
+
+    "import/order": "off",
 
     // @deprecated since eslint-plugin-jest@23.16.0
     // https://github.com/jest-community/eslint-plugin-jest/releases/tag/v23.16.0
     "jest/no-try-expect": "off",
+
+    //
+    "prefer-const": "error",
+
+    //
+    "simple-import-sort/sort": "error",
+
+    "sort-imports": "off",
+
+    "sort-keys": "error",
+
+    "sort-keys-fix/sort-keys-fix": "warn",
   },
 };

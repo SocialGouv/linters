@@ -8,8 +8,11 @@
   },
   "repository": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended",
   "scripts": {
+    "e2e": "jest",
+    "lint": "eslint .",
     "precommit": "lint-staged",
-    "lint": "eslint index.js"
+    "prepush": "yarn lint && yarn test --bail",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
@@ -29,10 +32,13 @@
     "eslint-config-prettier": "~6.11.0",
     "eslint-plugin-import": "~2.21.2",
     "eslint-plugin-jest": "~23.17.0",
-    "eslint-plugin-prettier": "~3.1.4"
+    "eslint-plugin-prettier": "~3.1.4",
+    "eslint-plugin-simple-import-sort": "~5.0.3",
+    "eslint-plugin-sort-keys-fix": "~1.1.1"
   },
   "devDependencies": {
     "eslint": "^7.3.1",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   }

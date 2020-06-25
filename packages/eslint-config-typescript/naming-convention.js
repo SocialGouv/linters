@@ -1,48 +1,58 @@
 exports.namingConvention = [
   {
-    selector: "default",
     format: ["camelCase"],
     leadingUnderscore: "allow",
+    selector: "default",
   },
   {
-    selector: "variable",
     format: ["camelCase", "UPPER_CASE", "PascalCase"],
     leadingUnderscore: "allow",
+    selector: "variable",
   },
   {
-    selector: "parameter", // parameter or _parameter
+    // parameter or _parameter
     format: ["camelCase"],
     leadingUnderscore: "allow",
+    selector: "parameter",
   },
   {
-    selector: "memberLike", // private member
+    format: ["camelCase"],
+
+    leadingUnderscore: "allow",
+    // private member
     modifiers: ["private"],
-    format: ["camelCase"],
-    leadingUnderscore: "allow",
+    selector: "memberLike",
   },
   {
-    selector: "method", // don't force _ on private methods
+    format: ["camelCase"],
+
+    leadingUnderscore: "allow",
+    // don't force _ on private methods
     modifiers: ["private"],
-    format: ["camelCase"],
-    leadingUnderscore: "allow",
+    selector: "method",
   },
   {
-    selector: "memberLike", // private static _Member
+    format: ["PascalCase"],
+
+    leadingUnderscore: "allow",
+    // private static _Member
     modifiers: ["private", "static"],
-    format: ["PascalCase"],
-    leadingUnderscore: "allow",
+    selector: "memberLike",
   },
   {
-    selector: "typeLike", // class MyClass
+    // class MyClass
     format: ["PascalCase"],
+    selector: "typeLike",
   },
   {
-    selector: "typeParameter", // class MyClass<TGeneric>
+    // class MyClass<TGeneric>
     format: ["PascalCase"],
     prefix: ["T"],
+    selector: "typeParameter",
   },
   {
-    selector: "interface", // FooBar
+    // FooBar
     format: ["PascalCase"],
+    selector: "interface",
   },
 ];
