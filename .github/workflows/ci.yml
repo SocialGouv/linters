@@ -78,6 +78,9 @@ jobs:
 
       - uses: actions/checkout@v2
 
+      - name: Install lerna
+        run: npm install --no-save lerna
+
       - name: Npm Authenticate
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
