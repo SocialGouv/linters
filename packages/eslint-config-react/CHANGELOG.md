@@ -3,6 +3,489 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-beta.6 (2020-06-25)
+
+
+
+# 1.0.0-beta.5 (2020-06-24)
+
+
+
+# 0.35.0 (2020-06-23)
+
+
+
+# 0.34.0 (2020-06-23)
+
+
+
+# 0.33.0 (2020-06-21)
+
+
+
+# 0.32.0 (2020-06-21)
+
+
+
+# 0.31.0 (2020-06-19)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.3.1 ([#410](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/410)) ([eda302b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/eda302b5e2f692fa8dcb24e997b233396b79e9d9))
+
+
+
+# 0.30.0 (2020-06-18)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.3.0 ([#408](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/408)) ([c449e30](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/c449e30e750d13ee53c50800ceb00c0bde1e5cb2))
+
+
+
+# 0.29.0 (2020-06-15)
+
+
+
+# 0.28.0 (2020-06-10)
+
+
+
+# 0.27.0 (2020-06-08)
+
+
+
+# 0.26.0 (2020-06-08)
+
+
+
+# 1.0.0-beta.4 (2020-05-27)
+
+
+
+# 1.0.0-beta.3 (2020-05-27)
+
+
+
+# 1.0.0-beta.2 (2020-05-27)
+
+
+
+# 0.25.0 (2020-05-27)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.4 ([#391](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/391)) ([49c578a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/49c578a9e88145867fbf4210f13c0c7e5c2880f2))
+
+
+
+# 0.24.0 (2020-05-27)
+
+
+
+# 0.23.0 (2020-05-26)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.3 ([#389](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/389)) ([9935954](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/99359548ec12f0419311cc73df376aa77bbab028))
+
+
+
+# 1.0.0-beta.1 (2020-05-18)
+
+
+
+## 0.22.1 (2020-05-18)
+
+
+
+# 0.22.0 (2020-05-18)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react to ~7.20.0 ([cd6123f](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/cd6123f53ea91a47c78067ba0177fc583476c05a))
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.1 ([f5b786a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/f5b786a127efd69200a069e8584c30e84417267c))
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.0.2 ([fdfbcf9](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/fdfbcf9cbef7b3ae780f64e737281f10616ca0d7))
+
+
+
+# 0.21.0 (2020-05-12)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4 ([d5750e0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/d5750e0d5fd5684ee0eaa1535f7914d7b6868a44))
+
+
+
+# 0.20.0 (2020-04-10)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to v3 ([#358](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/358)) ([6fffe4b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/6fffe4bd573f2d00e00fae6676b268cb172aada1))
+
+
+
+# 0.19.0 (2020-03-21)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.5.1 ([236ecf3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/236ecf32bf2f396cc6b3e2a5f1d1536286875fac))
+
+
+
+# 0.18.0 (2020-03-17)
+
+
+### Features
+
+* **deps:** update dependency babel-eslint to ^10.1.0 ([e9e7478](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/e9e7478d6175f09b3f0dcdbe70f26a275f9df134))
+* **deps:** update dependency eslint-plugin-react to ~7.19.0 ([726dba4](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/726dba47faf84b144f0561bbf72bd80225229188))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.5.0 ([c0d1044](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/c0d1044469036b55b7d83019348b832ac3a24b20))
+
+
+
+# 0.17.0 (2020-02-25)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react to ~7.18.1 ([f02086f](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/f02086f146670563be5cc72ab1e710e1bdc5006b))
+* **deps:** update dependency eslint-plugin-react to ~7.18.2 ([47d4458](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/47d44587289380d88827d710b742a590310d1c71))
+* **deps:** update dependency eslint-plugin-react to ~7.18.3 ([6104c91](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/6104c919d42a83789a3cbdb2988a006a82054db1))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.4.0 ([74c7f4e](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/74c7f4e665efae22ef06a4343d94b11e1111ffd0))
+
+
+
+# 0.16.0 (2020-01-31)
+
+
+
+# 0.15.0 (2020-01-24)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react to ~7.18.0 ([511a7e1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/511a7e1a44b64e535d7873f35ab0509de875fad5))
+
+
+
+# 0.14.0 (2020-01-14)
+
+
+### Features
+
+* **eslint-config-strict:** create ([#307](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/307)) ([086bf49](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/086bf4911ac2590aa873e50f3aec85149f6d0bce))
+
+
+
+# 0.13.0 (2020-01-06)
+
+
+
+# 0.12.0 (2019-12-31)
+
+
+
+## 0.11.2 (2019-12-30)
+
+
+
+## 0.11.1 (2019-12-16)
+
+
+
+# 0.11.0 (2019-12-11)
+
+
+
+## 0.10.4 (2019-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.17.0 ([f4018e2](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/f4018e2ecd2a7b675789936a31ff6b913b6e375a))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.3.0 ([835112c](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/835112c573825c8aafa1aa6c44b9f5e827bf4352))
+
+
+
+## 0.10.3 (2019-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.2.0 ([287ec4f](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/287ec4f99a4e783d6a10e8f67d1f99de8e5cdfab))
+
+
+
+## 0.10.2 (2019-10-22)
+
+
+
+## 0.10.1 (2019-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.15.0 ([eb41606](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/eb4160611de26e445e7363144a064019ec90cf40))
+* **deps:** update dependency eslint-plugin-react to ~7.15.1 ([ccb1b29](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/ccb1b296936fa3e3068d9b3a4b70d74437ad4fe4))
+* **deps:** update dependency eslint-plugin-react to ~7.16.0 ([cbbc312](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/cbbc3128408ef4969c60f3a738d657ccd2f1ac2b))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.0 ([18084aa](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/18084aa073064d4a689e3ac237e399b3b87f2af4))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.1 ([c93df00](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/c93df006357a5542ccd10208eca49bb683bbb3b5))
+* **deps:** update dependency eslint-plugin-react-hooks to ~2.1.2 ([5f55e05](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/5f55e0553626ba115f6e82a6dd5d386781dd9743))
+
+
+
+# 0.10.0 (2019-09-11)
+
+
+
+## 0.9.8 (2019-09-11)
+
+
+
+## 0.9.7 (2019-09-03)
+
+
+
+## 0.9.6 (2019-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to ^10.0.3 ([91aadb0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/91aadb0f9752e93556c3ea706e348b0dc011f33a))
+
+
+
+## 0.9.5 (2019-08-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~1.7.0 ([e2186f3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/e2186f31acfb1b3d79f603a5ca2abbc995166fce))
+* **deps:** update dependency eslint-plugin-react-hooks to v2 ([e9506a8](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/e9506a8c2ab7b2782a4eaf559ccf4b9f901119bf))
+
+
+
+## 0.9.4 (2019-08-08)
+
+
+
+## 0.9.3 (2019-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.14.3 ([0b256be](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/0b256be0363dc4bda16f45fccad1b26ce3c2d523))
+
+
+
+## 0.9.2 (2019-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.2.2 ([0a9681b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/0a9681bf6fb11351fd8937fb1820454a7be18bd4))
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.2.3 ([0ba2a66](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/0ba2a66569fcc5fbbf3170f8901d243a85a147f5))
+* **deps:** update dependency eslint-plugin-react to ~7.14.0 ([a741dae](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/a741dae0417243101dc164de4fde40d73c275f5f))
+* **deps:** update dependency eslint-plugin-react to ~7.14.2 ([4ce50f3](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/4ce50f3f75cfff7979ba5cf170ac5b1aa64a3bec))
+* **deps:** update dependency eslint-plugin-react-hooks to ~1.6.1 ([6f0362c](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/6f0362cad5ff6516afcc4a228e51b5d4fb7524dd))
+
+
+
+## 0.9.1 (2019-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to ^10.0.2 ([95076d0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/95076d0db0236b952214c475c02e833063c8918d))
+
+
+
+# 0.9.0 (2019-06-05)
+
+
+
+# 0.8.0 (2019-06-05)
+
+
+
+## 0.7.2 (2019-05-24)
+
+
+
+## 0.7.1 (2019-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.13.0 ([abbf3bb](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/abbf3bbbf2021b62cd7de9518d5b5836a9756917))
+
+
+
+# 0.7.0 (2019-04-30)
+
+
+
+## 0.6.1 (2019-04-29)
+
+
+
+# 0.6.0 (2019-04-04)
+
+
+### Features
+
+* **eslint-config-react:** add react hooks rules ([#99](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/99)) ([bcd794c](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/bcd794c528e579076d513932a9f323990c9b24c0))
+
+
+
+## 0.5.2 (2019-03-08)
+
+
+### Bug Fixes
+
+* **pkg:** correct packages author ([#78](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/78)) ([e4eeccf](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/e4eeccfcf753df59f1f66bde8757fbd5949f7fe4))
+
+
+
+# 0.5.0 (2019-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.2.1 ([ceab3ab](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/ceab3ab920b506522ba80047528ee40a8b9efce1))
+
+
+### Features
+
+* **eslint-config-react:** auto detect react version by default ([3e51d3d](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/3e51d3d02fd4d32fc919cb6cd4e77ed9b539fd08))
+
+
+
+## 0.4.5 (2019-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.2.0 ([9c9eef0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/9c9eef07c24a2476d72f6f73f2119972ae3b13d2))
+
+
+
+## 0.4.4 (2019-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.12.3 ([cbade4a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/cbade4a71a3747e393296bca1a05a280232f6e69))
+* **deps:** update dependency eslint-plugin-react to ~7.12.4 ([5775be9](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/5775be90a9042ad6027ba60e74765ab69616c0cc))
+
+
+
+## 0.4.3 (2019-01-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.12.2 ([1ee4e6a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/1ee4e6a447f0ec02d06378f259de6ed0e93beb74))
+
+
+
+## 0.4.2 (2019-01-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.12.0 ([cb914a5](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/cb914a52e557640fe801363f9143bf04e6b4df48))
+* **deps:** update dependency eslint-plugin-react to ~7.12.1 ([2e40eb6](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/2e40eb65a8f96c295a0e61b19626a65842ad9db9))
+
+
+
+## 0.4.1 (2018-12-14)
+
+
+
+# 0.4.0 (2018-12-13)
+
+
+
+# 0.3.0 (2018-12-13)
+
+
+### Features
+
+* **pkg:** consider plugins as dependencies ([5808c01](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/5808c01fee3d3d8b0be576817f50d8025f28e4e2))
+
+
+
+## 0.2.3 (2018-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to ^8.0.5 ([689d6d4](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/689d6d47be5ebaee5972eee2a3bb2336b56c5b2e))
+
+
+
+## 0.2.2 (2018-11-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to ^8.0.4 ([2119e9b](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/2119e9b0bb1c3fa2b8f1f6d6112e4aaf48dc4132))
+
+
+
+## 0.2.1 (2018-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to v8 ([#7](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/7)) ([c62944a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/c62944ab07fa9c8211c53bd7451ad063de55b9d5))
+
+
+
+# 0.2.0 (2018-10-18)
+
+
+### Features
+
+* **react:** use babel parser ([#5](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/5)) ([a4680ec](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/a4680ec58a68975e7493e16836e6c0e2bdab227e))
+
+
+
+## 0.1.2 (2018-10-16)
+
+
+### Bug Fixes
+
+* **react:** prettier/react should be in the extends array ([4096c27](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/4096c278c9cdca65af7465c4e08f130e626a3ba4))
+
+
+
+## 0.1.1 (2018-10-15)
+
+
+
+# 0.1.0 (2018-10-12)
+
+
+### Features
+
+* **all:** direct config dependencies are tilde ranged ([86b332a](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/86b332ae23f228bee014f09640c5c7839a24439b))
+* **all:** initial commit ([215346e](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/215346e66d0b14a22806741b954596769c65311c))
+
+
+
+
+
 # [1.0.0-beta.5](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v0.35.0...v1.0.0-beta.5) (2020-06-24)
 
 
