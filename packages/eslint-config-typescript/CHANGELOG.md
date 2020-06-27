@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v1.0.1...v1.1.0) (2020-06-27)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-import to ~2.22.0 ([#422](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/issues/422)) ([f282aa4](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/commit/f282aa401539f8fd4daeffd4b43e833bbe470a05))
+
+
+
+
+
 ## [1.0.1](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v1.0.0...v1.0.1) (2020-06-25)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-typescript
