@@ -10,6 +10,12 @@ exports.namingConvention = [
     selector: "variable",
   },
   {
+    // {property} or {_property}
+    format: ["camelCase", "UPPER_CASE"],
+    leadingUnderscore: "allow",
+    selector: "property",
+  },
+  {
     // parameter or _parameter
     format: ["camelCase"],
     leadingUnderscore: "allow",

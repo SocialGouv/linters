@@ -10,6 +10,13 @@
 }
 
 {
+  const camelCase = {
+    PascalCase: "PascalCase",
+    snake_case: "snake_case",
+  };
+}
+
+{
   function snake_case() {}
   function UPPER_CASE() {}
   function _UPPER_CASE() {}
@@ -34,9 +41,6 @@
 
 {
   interface camelCase {
-    camelCase: string;
-    _camelCase: string;
-    UPPER_CASE: string;
     PascalCase: string;
     snake_case: string;
   }
@@ -57,8 +61,6 @@
 
 {
   class PascalCase {
-    public UPPER_CASE = "";
-
     public snake_case = "";
 
     public _PascalCase = "";

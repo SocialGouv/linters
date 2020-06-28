@@ -35,10 +35,32 @@ Object {
           "severity": 2,
         },
         Object {
+          "column": 5,
+          "endColumn": 15,
+          "endLine": 14,
+          "line": 14,
+          "message": "Property name \`PascalCase\` must match one of the following formats: camelCase, UPPER_CASE",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
+          "column": 5,
+          "endColumn": 15,
+          "endLine": 15,
+          "line": 15,
+          "message": "Property name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE",
+          "messageId": "doesNotMatchFormat",
+          "nodeType": "Identifier",
+          "ruleId": "@typescript-eslint/naming-convention",
+          "severity": 2,
+        },
+        Object {
           "column": 12,
           "endColumn": 22,
-          "endLine": 13,
-          "line": 13,
+          "endLine": 20,
+          "line": 20,
           "message": "Function name \`snake_case\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -48,8 +70,8 @@ Object {
         Object {
           "column": 12,
           "endColumn": 22,
-          "endLine": 14,
-          "line": 14,
+          "endLine": 21,
+          "line": 21,
           "message": "Function name \`UPPER_CASE\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -59,8 +81,8 @@ Object {
         Object {
           "column": 12,
           "endColumn": 23,
-          "endLine": 15,
-          "line": 15,
+          "endLine": 22,
+          "line": 22,
           "message": "Function name \`_UPPER_CASE\` trimmed as \`UPPER_CASE\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormatTrimmed",
           "nodeType": "Identifier",
@@ -70,8 +92,8 @@ Object {
         Object {
           "column": 12,
           "endColumn": 22,
-          "endLine": 16,
-          "line": 16,
+          "endLine": 23,
+          "line": 23,
           "message": "Function name \`PascalCase\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -81,8 +103,8 @@ Object {
         Object {
           "column": 12,
           "endColumn": 23,
-          "endLine": 17,
-          "line": 17,
+          "endLine": 24,
+          "line": 24,
           "message": "Function name \`_PascalCase\` trimmed as \`PascalCase\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormatTrimmed",
           "nodeType": "Identifier",
@@ -92,8 +114,8 @@ Object {
         Object {
           "column": 24,
           "endColumn": 42,
-          "endLine": 23,
-          "line": 23,
+          "endLine": 30,
+          "line": 30,
           "message": "Parameter Property name \`snake_case\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -103,8 +125,8 @@ Object {
         Object {
           "column": 24,
           "endColumn": 42,
-          "endLine": 24,
-          "line": 24,
+          "endLine": 31,
+          "line": 31,
           "message": "Parameter Property name \`camelCase_\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -114,8 +136,8 @@ Object {
         Object {
           "column": 19,
           "endColumn": 30,
-          "endLine": 28,
-          "line": 28,
+          "endLine": 35,
+          "line": 35,
           "message": "Method name \`_snake_case\` trimmed as \`snake_case\` must match one of the following formats: camelCase",
           "messageId": "doesNotMatchFormatTrimmed",
           "nodeType": "Identifier",
@@ -125,8 +147,8 @@ Object {
         Object {
           "column": 9,
           "endColumn": 20,
-          "endLine": 30,
-          "line": 30,
+          "endLine": 37,
+          "line": 37,
           "message": "Class name \`_PascalCase\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -136,8 +158,8 @@ Object {
         Object {
           "column": 9,
           "endColumn": 19,
-          "endLine": 31,
-          "line": 31,
+          "endLine": 38,
+          "line": 38,
           "message": "Class name \`UPPER_CASE\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -147,8 +169,8 @@ Object {
         Object {
           "column": 9,
           "endColumn": 19,
-          "endLine": 32,
-          "line": 32,
+          "endLine": 39,
+          "line": 39,
           "message": "Class name \`snake_case\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -158,8 +180,8 @@ Object {
         Object {
           "column": 13,
           "endColumn": 22,
-          "endLine": 36,
-          "line": 36,
+          "endLine": 43,
+          "line": 43,
           "message": "Interface name \`camelCase\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -169,9 +191,9 @@ Object {
         Object {
           "column": 5,
           "endColumn": 15,
-          "endLine": 39,
-          "line": 39,
-          "message": "Property name \`UPPER_CASE\` must match one of the following formats: camelCase",
+          "endLine": 44,
+          "line": 44,
+          "message": "Property name \`PascalCase\` must match one of the following formats: camelCase, UPPER_CASE",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
           "ruleId": "@typescript-eslint/naming-convention",
@@ -180,20 +202,9 @@ Object {
         Object {
           "column": 5,
           "endColumn": 15,
-          "endLine": 40,
-          "line": 40,
-          "message": "Property name \`PascalCase\` must match one of the following formats: camelCase",
-          "messageId": "doesNotMatchFormat",
-          "nodeType": "Identifier",
-          "ruleId": "@typescript-eslint/naming-convention",
-          "severity": 2,
-        },
-        Object {
-          "column": 5,
-          "endColumn": 15,
-          "endLine": 41,
-          "line": 41,
-          "message": "Property name \`snake_case\` must match one of the following formats: camelCase",
+          "endLine": 45,
+          "line": 45,
+          "message": "Property name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
           "ruleId": "@typescript-eslint/naming-convention",
@@ -202,8 +213,8 @@ Object {
         Object {
           "column": 13,
           "endColumn": 23,
-          "endLine": 43,
-          "line": 43,
+          "endLine": 47,
+          "line": 47,
           "message": "Interface name \`UPPER_CASE\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -213,8 +224,8 @@ Object {
         Object {
           "column": 13,
           "endColumn": 23,
-          "endLine": 46,
-          "line": 46,
+          "endLine": 50,
+          "line": 50,
           "message": "Interface name \`snake_case\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -224,8 +235,8 @@ Object {
         Object {
           "column": 8,
           "endColumn": 19,
-          "endLine": 52,
-          "line": 52,
+          "endLine": 56,
+          "line": 56,
           "message": "Type Alias name \`_PascalCase\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -235,8 +246,8 @@ Object {
         Object {
           "column": 8,
           "endColumn": 18,
-          "endLine": 53,
-          "line": 53,
+          "endLine": 57,
+          "line": 57,
           "message": "Type Alias name \`UPPER_CASE\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -246,8 +257,8 @@ Object {
         Object {
           "column": 8,
           "endColumn": 18,
-          "endLine": 54,
-          "line": 54,
+          "endLine": 58,
+          "line": 58,
           "message": "Type Alias name \`snake_case\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -257,8 +268,8 @@ Object {
         Object {
           "column": 8,
           "endColumn": 17,
-          "endLine": 55,
-          "line": 55,
+          "endLine": 59,
+          "line": 59,
           "message": "Type Alias name \`camelCase\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
@@ -268,20 +279,9 @@ Object {
         Object {
           "column": 12,
           "endColumn": 22,
-          "endLine": 60,
-          "line": 60,
-          "message": "Property name \`UPPER_CASE\` must match one of the following formats: camelCase",
-          "messageId": "doesNotMatchFormat",
-          "nodeType": "Identifier",
-          "ruleId": "@typescript-eslint/naming-convention",
-          "severity": 2,
-        },
-        Object {
-          "column": 12,
-          "endColumn": 22,
-          "endLine": 62,
-          "line": 62,
-          "message": "Property name \`snake_case\` must match one of the following formats: camelCase",
+          "endLine": 64,
+          "line": 64,
+          "message": "Property name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
           "ruleId": "@typescript-eslint/naming-convention",
@@ -290,9 +290,9 @@ Object {
         Object {
           "column": 12,
           "endColumn": 23,
-          "endLine": 64,
-          "line": 64,
-          "message": "Property name \`_PascalCase\` trimmed as \`PascalCase\` must match one of the following formats: camelCase",
+          "endLine": 66,
+          "line": 66,
+          "message": "Property name \`_PascalCase\` trimmed as \`PascalCase\` must match one of the following formats: camelCase, UPPER_CASE",
           "messageId": "doesNotMatchFormatTrimmed",
           "nodeType": "Identifier",
           "ruleId": "@typescript-eslint/naming-convention",
@@ -301,8 +301,8 @@ Object {
         Object {
           "column": 24,
           "endColumn": 34,
-          "endLine": 69,
-          "line": 69,
+          "endLine": 71,
+          "line": 71,
           "message": "Type Parameter name \`PascalCase\` must have one of the following prefixes: T",
           "messageId": "missingAffix",
           "nodeType": "Identifier",
@@ -312,8 +312,8 @@ Object {
         Object {
           "column": 25,
           "endColumn": 36,
-          "endLine": 72,
-          "line": 72,
+          "endLine": 74,
+          "line": 74,
           "message": "Type Parameter name \`TUPPER_CASE\` trimmed as \`UPPER_CASE\` must match one of the following formats: PascalCase",
           "messageId": "doesNotMatchFormatTrimmed",
           "nodeType": "Identifier",
@@ -330,6 +330,13 @@ Object {
 {
   const snake_case = 0;
   const camelCase_ = 0;
+}
+
+{
+  const camelCase = {
+    PascalCase: \\"PascalCase\\",
+    snake_case: \\"snake_case\\",
+  };
 }
 
 {
@@ -357,9 +364,6 @@ Object {
 
 {
   interface camelCase {
-    camelCase: string;
-    _camelCase: string;
-    UPPER_CASE: string;
     PascalCase: string;
     snake_case: string;
   }
@@ -380,8 +384,6 @@ Object {
 
 {
   class PascalCase {
-    public UPPER_CASE = \\"\\";
-
     public snake_case = \\"\\";
 
     public _PascalCase = \\"\\";

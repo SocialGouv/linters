@@ -14,6 +14,15 @@
 }
 
 {
+  const camelCase = {
+    UPPER_CASE: "UPPER_CASE",
+    _UPPER_CASE: "_UPPER_CASE",
+    _camelCase: "_camelCase",
+    camelCase: "camelCase",
+  };
+}
+
+{
   function camelCase() {}
   function _camelCase() {}
 }
@@ -34,6 +43,8 @@
 {
   interface PascalCase {
     camelCase: string;
+    _camelCase: string;
+    UPPER_CASE: string;
   }
 }
 
@@ -43,6 +54,8 @@
 
 {
   class PascalCase {
+    public UPPER_CASE = "";
+
     public camelCase = "";
 
     public _camelCase = "";
