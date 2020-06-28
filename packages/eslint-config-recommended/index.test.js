@@ -2,6 +2,9 @@ const { CLIEngine } = require("eslint");
 const { readFile } = require("fs/promises");
 const { join, relative, dirname } = require("path");
 
+// HACK(douglasduteil): ensure that jest knows that this test is related to index.js
+require("./index.js");
+
 const cli = new CLIEngine({
   configFile: "./index.js",
   cwd: __dirname,

@@ -39,7 +39,7 @@ module.exports = {
 
     "sort-imports": "off",
 
-    "sort-keys": "error",
+    "sort-keys": "off",
 
     "sort-keys-fix/sort-keys-fix": "warn",
   },

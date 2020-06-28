@@ -2,12 +2,12 @@
 
 exports[`fails with incorrect file 1`] = `
 Object {
-  "errorCount": 10,
+  "errorCount": 9,
   "fixableErrorCount": 3,
   "fixableWarningCount": 1,
   "results": Array [
     Object {
-      "errorCount": 10,
+      "errorCount": 9,
       "filePath": StringContaining "eslint-config-recommended/__fixtures__/incorrect.js",
       "fixableErrorCount": 3,
       "fixableWarningCount": 1,
@@ -134,17 +134,6 @@ Object {
           "messageId": "useConst",
           "nodeType": "Identifier",
           "ruleId": "prefer-const",
-          "severity": 2,
-        },
-        Object {
-          "column": 25,
-          "endColumn": 26,
-          "endLine": 32,
-          "line": 32,
-          "message": "Expected object keys to be in ascending order. 'a' should be before 'b'.",
-          "messageId": "sortKeys",
-          "nodeType": "Property",
-          "ruleId": "sort-keys",
           "severity": 2,
         },
         Object {
