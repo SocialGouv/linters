@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/SocialGouv/linters/compare/v1.1.0...v1.1.1) (2020-06-28)
+
+
+### Bug Fixes
+
+* **typescript:** add missing naming-convention file ([8cdde26](https://github.com/SocialGouv/linters/commit/8cdde26d2550ab63b6b4da7377c825a0357c3ff9))
+
+
+
+
+
 # [1.1.0](https://github.com/SocialGouv/linters/compare/v1.0.1...v1.1.0) (2020-06-27)
 
 
