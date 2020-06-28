@@ -17,7 +17,7 @@ exports.namingConvention = [
   },
   {
     // parameter or _parameter
-    format: ["camelCase"],
+    format: ["camelCase", "UPPER_CASE"],
     leadingUnderscore: "allow",
     selector: "parameter",
   },

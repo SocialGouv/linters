@@ -28,6 +28,29 @@
 }
 
 {
+  function camelCase({
+    UPPER_CASE = "UPPER_CASE",
+    _UPPER_CASE = "_UPPER_CASE",
+    _camelCase = "_camelCase",
+    camelCase = "camelCase",
+  }) {
+    console.log({
+      UPPER_CASE,
+      _UPPER_CASE,
+      _camelCase,
+      camelCase,
+    });
+  }
+
+  camelCase({
+    UPPER_CASE: "UPPER_CASE",
+    _UPPER_CASE: "_UPPER_CASE",
+    _camelCase: "_camelCase",
+    camelCase: "camelCase",
+  });
+}
+
+{
   class PascalCase {
     constructor(
       private readonly camelCase: string,
@@ -61,6 +84,7 @@
     public _camelCase = "";
   }
 }
+
 {
   class PascalCase {
     private readonly camelCase = "";

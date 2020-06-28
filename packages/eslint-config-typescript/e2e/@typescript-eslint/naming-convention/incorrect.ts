@@ -25,6 +25,16 @@
 }
 
 {
+  function camelCase({ PascalCase = "PascalCase", snake_case = "snake_case" }) {
+    console.log({ PascalCase, snake_case });
+  }
+  camelCase({
+    PascalCase: "PascalCase",
+    snake_case: "snake_case",
+  });
+}
+
+{
   class PascalCase {
     constructor(
       private readonly snake_case: string,
