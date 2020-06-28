@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/SocialGouv/linters/compare/v1.1.3...v1.1.4) (2020-06-28)
+
+
+### Bug Fixes
+
+* **recommended:** remove duplicate sort-keys error ([41e100e](https://github.com/SocialGouv/linters/commit/41e100e61bac91d32bdf3a49fa69e073dee44536))
+
+
+
+
+
 ## [1.1.3](https://github.com/SocialGouv/linters/compare/v1.1.2...v1.1.3) (2020-06-28)
 
 
