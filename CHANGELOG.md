@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/SocialGouv/linters/compare/v1.1.2...v1.1.3) (2020-06-28)
+
+
+### Bug Fixes
+
+* **typescript:** allow UPPER_CASE in parameters ([86d32f1](https://github.com/SocialGouv/linters/commit/86d32f1790624cd4396ffc4624877b4f325f73ea))
+
+
+
+
+
 ## [1.1.2](https://github.com/SocialGouv/linters/compare/v1.1.1...v1.1.2) (2020-06-28)
 
 
