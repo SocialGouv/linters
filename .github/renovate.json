@@ -3,6 +3,7 @@
     "github>SocialGouv/renovate-config",
     ":automergeAll"
   ],
+  "stabilityDays": 2,
   "packageRules": [
     {
       "depTypeList": ["dependencies"],
