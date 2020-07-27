@@ -3,6 +3,7 @@
     "github>SocialGouv/renovate-config",
     ":automergeAll"
   ],
+  "prCreation": "not-pending",
   "stabilityDays": 2,
   "packageRules": [
     {
