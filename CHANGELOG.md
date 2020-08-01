@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/SocialGouv/linters/compare/v1.20.0...v1.21.0) (2020-08-01)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jest to ~23.20.0 ([#467](https://github.com/SocialGouv/linters/issues/467)) ([f003ba5](https://github.com/SocialGouv/linters/commit/f003ba5efcfef3db89e1adb697cae9e636553ae0))
+
+
+
+
+
 # [1.20.0](https://github.com/SocialGouv/linters/compare/v1.19.0...v1.20.0) (2020-08-01)
 
 
