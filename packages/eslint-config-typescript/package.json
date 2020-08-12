@@ -6,8 +6,8 @@
   "bugs": "https://github.com/SocialGouv/linters/issues",
   "dependencies": {
     "@socialgouv/eslint-config-recommended": "^1.22.0",
-    "@typescript-eslint/eslint-plugin": "~3.8.0",
-    "@typescript-eslint/parser": "~3.8.0",
+    "@typescript-eslint/eslint-plugin": "~3.9.0",
+    "@typescript-eslint/parser": "~3.9.0",
     "eslint-import-resolver-typescript": "~2.2.0",
     "eslint-plugin-import": "~2.22.0"
   },
