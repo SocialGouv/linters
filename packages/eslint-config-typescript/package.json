@@ -8,7 +8,7 @@
     "@socialgouv/eslint-config-recommended": "^1.28.0",
     "@typescript-eslint/eslint-plugin": "~3.10.1",
     "@typescript-eslint/parser": "~3.10.1",
-    "eslint-import-resolver-typescript": "~2.2.1",
+    "eslint-import-resolver-typescript": "~2.3.0",
     "eslint-plugin-import": "~2.22.0"
   },
   "devDependencies": {
