@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.34.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v1.33.0...v1.34.0) (2020-09-27)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react to ~7.21.2 ([#525](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/issues/525)) ([3c35978](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/commit/3c35978fda35a2d6e1cf7e69b053ed34be2f584b))
+
+
+
+
+
 # [1.33.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v1.32.0...v1.33.0) (2020-09-22)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
