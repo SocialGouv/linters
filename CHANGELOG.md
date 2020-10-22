@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.43.0](https://github.com/SocialGouv/linters/compare/v1.42.0...v1.43.0) (2020-10-22)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to ~4.2.0 ([#547](https://github.com/SocialGouv/linters/issues/547)) ([8484928](https://github.com/SocialGouv/linters/commit/848492808bacaa6aba14a46f12a90328c796d859))
+
+
+
+
+
 # [1.42.0](https://github.com/SocialGouv/linters/compare/v1.41.0...v1.42.0) (2020-10-22)
 
 
