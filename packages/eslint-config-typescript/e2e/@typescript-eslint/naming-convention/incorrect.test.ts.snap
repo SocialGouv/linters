@@ -2,12 +2,12 @@
 
 exports[`@typescript-eslint/naming-convention incorrect 1`] = `
 Object {
-  "errorCount": 36,
+  "errorCount": 34,
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "results": Array [
     Object {
-      "errorCount": 36,
+      "errorCount": 34,
       "filePath": StringContaining "e2e/@typescript-eslint/naming-convention/incorrect.ts",
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
@@ -123,33 +123,11 @@ Object {
           "severity": 2,
         },
         Object {
-          "column": 24,
-          "endColumn": 34,
-          "endLine": 28,
-          "line": 28,
-          "message": "Property name \`PascalCase\` must match one of the following formats: camelCase, UPPER_CASE",
-          "messageId": "doesNotMatchFormat",
-          "nodeType": "Identifier",
-          "ruleId": "@typescript-eslint/naming-convention",
-          "severity": 2,
-        },
-        Object {
           "column": 51,
           "endColumn": 61,
           "endLine": 28,
           "line": 28,
           "message": "Parameter name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE",
-          "messageId": "doesNotMatchFormat",
-          "nodeType": "Identifier",
-          "ruleId": "@typescript-eslint/naming-convention",
-          "severity": 2,
-        },
-        Object {
-          "column": 51,
-          "endColumn": 61,
-          "endLine": 28,
-          "line": 28,
-          "message": "Property name \`snake_case\` must match one of the following formats: camelCase, UPPER_CASE",
           "messageId": "doesNotMatchFormat",
           "nodeType": "Identifier",
           "ruleId": "@typescript-eslint/naming-convention",
@@ -387,8 +365,8 @@ Object {
           "severity": 2,
         },
         Object {
-          "column": 24,
-          "endColumn": 34,
+          "column": 25,
+          "endColumn": 35,
           "endLine": 81,
           "line": 81,
           "message": "Type Parameter name \`PascalCase\` must have one of the following prefixes: T",
@@ -489,7 +467,7 @@ Object {
 }
 
 {
-  interface PascalCase<PascalCase> extends ReadonlyArray<string> {
+  interface PascalCaseI<PascalCase> extends ReadonlyArray<string> {
     camelCase: PascalCase;
   }
   interface PascalCase2<TUPPER_CASE> extends ReadonlyArray<string> {
