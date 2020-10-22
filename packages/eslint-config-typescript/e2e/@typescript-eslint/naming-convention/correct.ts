@@ -28,7 +28,7 @@
 }
 
 {
-  function camelCase({
+  function camelCaseFn({
     UPPER_CASE = "UPPER_CASE",
     _UPPER_CASE = "_UPPER_CASE",
     _camelCase = "_camelCase",
@@ -42,7 +42,7 @@
     });
   }
 
-  camelCase({
+  camelCaseFn({
     UPPER_CASE: "UPPER_CASE",
     _UPPER_CASE: "_UPPER_CASE",
     _camelCase: "_camelCase",
