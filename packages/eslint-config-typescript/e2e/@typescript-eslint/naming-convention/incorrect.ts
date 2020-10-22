@@ -78,7 +78,7 @@
 }
 
 {
-  interface PascalCase<PascalCase> extends ReadonlyArray<string> {
+  interface PascalCaseI<PascalCase> extends ReadonlyArray<string> {
     camelCase: PascalCase;
   }
   interface PascalCase2<TUPPER_CASE> extends ReadonlyArray<string> {

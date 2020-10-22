@@ -9,11 +9,11 @@ const [d] = [] as any[];
 let [e] = [1 as any];
 [e] = [1] as [any];
 
-function foo(a = 1 as any) {
-  return a as number;
+function foo(f = 1 as any) {
+  return f as number;
 }
 class Foob {
-  constructor(private readonly a = 1 as any) {}
+  constructor(private readonly g = 1 as any) {}
 }
 class Barb {
   private readonly a = 1 as any;
