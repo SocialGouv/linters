@@ -102,7 +102,12 @@ import React, { useState } from \\"react\\";
       "warningCount": 1,
     },
   ],
-  "usedDeprecatedRules": Array [],
+  "usedDeprecatedRules": Array [
+    Object {
+      "replacedBy": Array [],
+      "ruleId": "jsx-a11y/accessible-emoji",
+    },
+  ],
   "warningCount": 1,
 }
 `;
@@ -122,7 +127,12 @@ Object {
       "warningCount": 0,
     },
   ],
-  "usedDeprecatedRules": Array [],
+  "usedDeprecatedRules": Array [
+    Object {
+      "replacedBy": Array [],
+      "ruleId": "jsx-a11y/accessible-emoji",
+    },
+  ],
   "warningCount": 0,
 }
 `;
