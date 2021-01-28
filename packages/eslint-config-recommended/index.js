@@ -25,6 +25,8 @@ module.exports = {
 
     "import/no-unresolved": "error",
 
+    // Following usage
+    // https://github.com/lydell/eslint-plugin-simple-import-sort/tree/v7.0.0#usage
     "import/order": "off",
 
     // @deprecated since eslint-plugin-jest@23.16.0
@@ -34,11 +36,16 @@ module.exports = {
     //
     "prefer-const": "error",
 
-    //
-    "simple-import-sort/sort": "error",
+    // https://github.com/lydell/eslint-plugin-simple-import-sort
+    // Following usage
+    // https://github.com/lydell/eslint-plugin-simple-import-sort/tree/v7.0.0#usage
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
 
     "sort-imports": "off",
 
+    // Following usage
+    // https://github.com/lydell/eslint-plugin-simple-import-sort/tree/v7.0.0#usage
     "sort-keys": "off",
 
     "sort-keys-fix/sort-keys-fix": "warn",
