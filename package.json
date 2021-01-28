@@ -15,6 +15,7 @@
   "private": true,
   "scripts": {
     "lint": "lerna run --parallel --stream lint",
+    "lint:fix": "lerna run --parallel --stream lint -- --fix",
     "test": "lerna run --parallel --stream test"
   },
   "workspaces": [
