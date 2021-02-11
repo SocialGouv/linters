@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.50.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.49.0...v1.50.0) (2021-02-11)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-recommended
+
+
+
+
+
 # [1.49.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.48.0...v1.49.0) (2021-01-28)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-recommended
