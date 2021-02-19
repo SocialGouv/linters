@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.52.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.51.0...v1.52.0) (2021-02-19)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jest to ~24.1.5 ([#595](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/issues/595)) ([506d305](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/commit/506d305a799db2b3d7cdafa46709b0164a55c168))
+
+
+
+
+
 # [1.51.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.50.0...v1.51.0) (2021-02-18)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-recommended
