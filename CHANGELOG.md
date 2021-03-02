@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.54.0](https://github.com/SocialGouv/linters/compare/v1.53.0...v1.54.0) (2021-03-02)
+
+
+### Features
+
+* **typescript:** allow use before defined ([#605](https://github.com/SocialGouv/linters/issues/605)) ([ffd59b8](https://github.com/SocialGouv/linters/commit/ffd59b846e7c60da5f978e661cbb36d7a594fe95))
+
+
+
+
+
 # [1.53.0](https://github.com/SocialGouv/linters/compare/v1.52.0...v1.53.0) (2021-02-25)
 
 
