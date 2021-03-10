@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.57.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.56.0...v1.57.0) (2021-03-10)
+
+
+### Features
+
+* **deps:** update dependency eslint-config-prettier to v8 ([#598](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/issues/598)) ([7600078](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/commit/7600078bdeac69aa92e4ff78bc28798843e2c73a)), closes [/github.com/prettier/eslint-config-prettier/blob/v8.1.0/CHANGELOG.md#version-800-2021-02-21](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/issues/version-800-2021-02-21)
+
+
+
+
+
 # [1.56.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-recommended/compare/v1.55.0...v1.56.0) (2021-03-10)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-recommended
