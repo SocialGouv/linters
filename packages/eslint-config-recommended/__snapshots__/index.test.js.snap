@@ -125,9 +125,9 @@ Object {
           "fix": Object {
             "range": Array [
               426,
-              429,
+              442,
             ],
-            "text": "const",
+            "text": "const foo = \\"bar\\";",
           },
           "line": 25,
           "message": "'foo' is never reassigned. Use 'const' instead.",
