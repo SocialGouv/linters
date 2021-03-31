@@ -18,7 +18,7 @@
     "@types/dedent": "^0.7.0",
     "@types/eslint": "^7.2.7",
     "@types/jest": "^26.0.22",
-    "@types/node": "^14.14.35",
+    "@types/node": "^14.14.37",
     "babel-jest": "^26.6.3",
     "dedent": "^0.7.0",
     "eslint": "^7.22.0",
