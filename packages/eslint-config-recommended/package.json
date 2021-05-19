@@ -31,7 +31,7 @@
   "dependencies": {
     "eslint-config-prettier": "~8.2.0",
     "eslint-plugin-import": "~2.22.1",
-    "eslint-plugin-jest": "~24.3.5",
+    "eslint-plugin-jest": "~24.3.6",
     "eslint-plugin-prettier": "~3.4.0",
     "eslint-plugin-simple-import-sort": "~7.0.0",
     "eslint-plugin-sort-keys-fix": "~1.1.1"
