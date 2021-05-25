@@ -34,12 +34,6 @@
   "homepage": "https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript#readme",
   "keywords": [],
   "license": "Apache-2.0",
-  "lint-staged": {
-    "*.{j,t}s": [
-      "eslint --fix",
-      "jest --bail --findRelatedTests"
-    ]
-  },
   "main": "index.js",
   "peerDependencies": {
     "eslint": "7",

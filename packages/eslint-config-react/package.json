@@ -10,8 +10,8 @@
   "scripts": {
     "e2e": "jest",
     "lint": "eslint .",
-    "precommit": "lint-staged",
-    "prepush": "yarn lint && yarn test --bail",
+    "pre-commit": "lint-staged",
+    "pre-push": "yarn lint && yarn test --bail",
     "test": "jest"
   },
   "keywords": [],
