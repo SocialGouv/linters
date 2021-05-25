@@ -1,21 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`@typescript-eslint/strict-boolean-expressions incorrect 1`] = `
-Object {
-  "errorCount": 0,
-  "fixableErrorCount": 0,
-  "fixableWarningCount": 0,
-  "results": Array [
-    Object {
-      "errorCount": 0,
-      "filePath": StringContaining "e2e/@typescript-eslint/strict-boolean-expressions/incorrect.ts",
-      "fixableErrorCount": 0,
-      "fixableWarningCount": 0,
-      "messages": Array [],
-      "warningCount": 0,
-    },
-  ],
-  "usedDeprecatedRules": Array [],
-  "warningCount": 0,
-}
+Array [
+  Object {
+    "errorCount": 0,
+    "filePath": StringContaining "e2e/@typescript-eslint/strict-boolean-expressions/incorrect.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [],
+    "usedDeprecatedRules": Array [],
+    "warningCount": 0,
+  },
+]
 `;
