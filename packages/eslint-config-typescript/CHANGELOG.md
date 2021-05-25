@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.76.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v1.75.0...v1.76.0) (2021-05-25)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to ~4.25.0 ([#664](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/issues/664)) ([717a443](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/commit/717a443fae2ade3348f530b1fb91c5e4ef55ec2a))
+
+
+
+
+
 # [1.75.0](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-typescript/compare/v1.74.1...v1.75.0) (2021-05-25)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-typescript
