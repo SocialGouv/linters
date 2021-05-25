@@ -35,6 +35,7 @@ Object {
           "endLine": 15,
           "line": 15,
           "message": "'name' is missing in props validation",
+          "messageId": "missingPropType",
           "nodeType": "Identifier",
           "ruleId": "react/prop-types",
           "severity": 2,
