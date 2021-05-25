@@ -6,17 +6,12 @@
     "prettier": "^2.3.0",
     "typescript": "^4.2.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lerna run --concurrency 1 --stream precommit",
-      "pre-push": "lerna run --concurrency 1 --stream prepush"
-    }
-  },
   "private": true,
   "scripts": {
     "lint": "lerna run --parallel --stream lint",
     "lint:fix": "lerna run --parallel --stream lint -- --fix",
-    "test": "lerna run --parallel --stream test"
+    "test": "lerna run --parallel --stream test",
+    "prepare": "husky install"
   },
   "workspaces": [
     "packages/*"
