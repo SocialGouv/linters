@@ -40,6 +40,6 @@
     "eslint": "^7.28.0",
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.1"
   }
 }
