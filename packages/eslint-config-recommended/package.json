@@ -37,7 +37,7 @@
     "eslint-plugin-sort-keys-fix": "~1.1.1"
   },
   "devDependencies": {
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.1"
