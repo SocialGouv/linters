@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.80.3](https://github.com/SocialGouv/linters/compare/v1.80.2...v1.80.3) (2021-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to ~4.28.3 ([#705](https://github.com/SocialGouv/linters/issues/705)) ([15dd66f](https://github.com/SocialGouv/linters/commit/15dd66fe91179f15f5ce7d16cbf8c433a8953d99))
+
+
+
+
+
 ## [1.80.2](https://github.com/SocialGouv/linters/compare/v1.80.1...v1.80.2) (2021-07-07)
 
 
