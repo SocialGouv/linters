@@ -1,6 +1,6 @@
 {
   "name": "@socialgouv/eslint-config-recommended",
-  "version": "1.80.3",
+  "version": "1.80.4",
   "description": "Social Gouv default recommended eslint config",
   "main": "index.js",
   "publishConfig": {
