@@ -33,6 +33,7 @@ module.exports = {
     "@typescript-eslint/no-type-alias": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/prefer-readonly-parameter-types": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
