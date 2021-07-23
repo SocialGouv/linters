@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.80.5](https://github.com/SocialGouv/linters/compare/v1.80.4...v1.80.5) (2021-07-23)
+
+
+### Bug Fixes
+
+* **release:** use default installation ([922cec0](https://github.com/SocialGouv/linters/commit/922cec04ff4636f8f097dadf2a57f61e80d6522f))
+
+
+
+
+
 ## [1.80.4](https://github.com/SocialGouv/linters/compare/v1.80.3...v1.80.4) (2021-07-21)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.80.5](https://github.com/SocialGouv/linters/tree/master/packages/eslint-config-react/compare/v1.80.4...v1.80.5) (2021-07-23)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-react
+
+
+
+
+
 ## [1.80.4](https://github.com/SocialGouv/linters/compare/v1.80.3...v1.80.4) (2021-07-21)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-react
