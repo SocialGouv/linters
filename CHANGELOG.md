@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.82.0](https://github.com/SocialGouv/linters/compare/v1.81.0...v1.82.0) (2021-07-23)
+
+
+### Features
+
+* **eslint-config-typescript:** disable @typescript-eslint/no-unsafe-member-access rule (2) ([#712](https://github.com/SocialGouv/linters/issues/712)) ([16faccd](https://github.com/SocialGouv/linters/commit/16faccdf32c3096f0ffaf6aa0f47faa7cbd978ac))
+
+
+
+
+
 # [1.81.0](https://github.com/SocialGouv/linters/compare/v1.80.5...v1.81.0) (2021-07-23)
 
 
