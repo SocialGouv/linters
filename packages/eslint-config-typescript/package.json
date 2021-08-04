@@ -1,11 +1,11 @@
 {
   "name": "@socialgouv/eslint-config-typescript",
   "description": "Social Gouv typescript eslint config",
-  "version": "1.83.1",
+  "version": "1.83.2",
   "author": "Incubateur des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
   "bugs": "https://github.com/SocialGouv/linters/issues",
   "dependencies": {
-    "@socialgouv/eslint-config-recommended": "^1.83.1",
+    "@socialgouv/eslint-config-recommended": "^1.83.2",
     "@typescript-eslint/eslint-plugin": "~4.28.5",
     "@typescript-eslint/parser": "~4.28.5",
     "eslint-import-resolver-typescript": "~2.4.0",

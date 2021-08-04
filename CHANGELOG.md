@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.83.2](https://github.com/SocialGouv/linters/compare/v1.83.1...v1.83.2) (2021-08-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-sort-keys-fix to ~1.1.2 ([#722](https://github.com/SocialGouv/linters/issues/722)) ([463602f](https://github.com/SocialGouv/linters/commit/463602f19696530e29c2999fcbb7c2aae5a79607))
+
+
+
+
+
 ## [1.83.1](https://github.com/SocialGouv/linters/compare/v1.83.0...v1.83.1) (2021-07-28)
 
 
