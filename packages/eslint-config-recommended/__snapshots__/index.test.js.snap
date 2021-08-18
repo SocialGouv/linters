@@ -3,11 +3,13 @@
 exports[`fails with incorrect file 1`] = `
 Object {
   "errorCount": 9,
+  "fatalErrorCount": 0,
   "fixableErrorCount": 3,
   "fixableWarningCount": 1,
   "results": Array [
     Object {
       "errorCount": 9,
+      "fatalErrorCount": 0,
       "filePath": StringContaining "eslint-config-recommended/__fixtures__/incorrect.js",
       "fixableErrorCount": 3,
       "fixableWarningCount": 1,
@@ -200,11 +202,13 @@ import \\"import/no-duplicates\\";
 exports[`works with correct file 1`] = `
 Object {
   "errorCount": 0,
+  "fatalErrorCount": 0,
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "results": Array [
     Object {
       "errorCount": 0,
+      "fatalErrorCount": 0,
       "filePath": StringContaining "eslint-config-recommended/__fixtures__/correct.js",
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,

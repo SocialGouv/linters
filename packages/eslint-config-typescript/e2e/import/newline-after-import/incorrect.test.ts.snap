@@ -1,15 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`import/newline-after-import incorrect 1`] = `
-Array [
-  Object {
-    "errorCount": 0,
-    "filePath": StringContaining "e2e/import/newline-after-import/incorrect.ts",
-    "fixableErrorCount": 0,
-    "fixableWarningCount": 0,
-    "messages": Array [],
-    "usedDeprecatedRules": Array [],
-    "warningCount": 0,
-  },
-]
-`;
+exports[`import/newline-after-import incorrect 1`] = `""`;

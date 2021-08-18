@@ -1,15 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@typescript-eslint/explicit-module-boundary-types correct 1`] = `
-Array [
-  Object {
-    "errorCount": 0,
-    "filePath": StringContaining "e2e/@typescript-eslint/explicit-module-boundary-types/correct.ts",
-    "fixableErrorCount": 0,
-    "fixableWarningCount": 0,
-    "messages": Array [],
-    "usedDeprecatedRules": Array [],
-    "warningCount": 0,
-  },
-]
-`;
+exports[`@typescript-eslint/explicit-module-boundary-types correct 1`] = `""`;
