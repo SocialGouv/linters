@@ -1,49 +1,47 @@
-const { CLIEngine } = require("eslint");
-const { readFile } = require("fs/promises");
-const { join, relative, dirname } = require("path");
+const { join, resolve, dirname } = require("path");
+const { ESLint } = require("eslint");
 
 // HACK(douglasduteil): ensure that jest knows that this test is related to index.js
 require("./index.js");
 
-const cli = new CLIEngine({
-  configFile: "./index.js",
+const cli = new ESLint({
+  cache: true,
   cwd: __dirname,
   ignore: false,
+  overrideConfigFile: "./index.js",
   useEslintrc: false,
 });
-const correctFilename = join("__fixtures__", "correct.js");
-const correctFileContent = readFile(correctFilename, "utf8");
-const incorrectFilename = join("__fixtures__", "incorrect.js");
-const incorrectFileContent = readFile(incorrectFilename, "utf8");
+const formatter$ = cli.loadFormatter("compact");
+const correctFilename = resolve(__dirname, join("__fixtures__", "correct.js"));
+const incorrectFilename = resolve(
+  __dirname,
+  join("__fixtures__", "incorrect.js")
+);
 
 beforeAll(async () => {
-  await Promise.all([correctFilename, incorrectFileContent]);
+  await Promise.all([formatter$]);
 });
 
 test("fails with incorrect file", async () => {
-  expect(
-    cli.executeOnText(await incorrectFileContent, incorrectFilename)
-  ).toMatchSnapshot({
-    results: [
-      {
-        filePath: expect.stringContaining(
-          relative(dirname(__dirname), incorrectFilename)
-        ),
-      },
-    ],
-  });
+  const report$ = cli.lintFiles([incorrectFilename]);
+
+  const reports = (await report$).map((report) => ({
+    ...report,
+    filePath: report.filePath.replace(dirname(__dirname), ""),
+  }));
+
+  const formatter = await formatter$;
+  expect(formatter.format(reports)).toMatchSnapshot();
 });
 
 test("works with correct file", async () => {
-  expect(
-    cli.executeOnText(await correctFileContent, correctFilename)
-  ).toMatchSnapshot({
-    results: [
-      {
-        filePath: expect.stringContaining(
-          relative(dirname(__dirname), correctFilename)
-        ),
-      },
-    ],
-  });
+  const report$ = cli.lintFiles([correctFilename]);
+
+  const reports = (await report$).map((report) => ({
+    ...report,
+    filePath: report.filePath.replace(dirname(__dirname), ""),
+  }));
+
+  const formatter = await formatter$;
+  expect(formatter.format(reports)).toMatchSnapshot();
 });

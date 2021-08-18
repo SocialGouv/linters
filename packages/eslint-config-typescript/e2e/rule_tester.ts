@@ -2,6 +2,7 @@ import { ESLint } from "eslint";
 import { basename, dirname, resolve } from "path";
 
 export const cli = new ESLint({
+  cache: true,
   cwd: dirname(__dirname),
   ignore: false,
   overrideConfigFile: "./index.js",
