@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.85.4](https://github.com/SocialGouv/linters/compare/v1.85.3...v1.85.4) (2021-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ~2.24.2 ([#735](https://github.com/SocialGouv/linters/issues/735)) ([587ffa5](https://github.com/SocialGouv/linters/commit/587ffa5d1495747758f10cbddc9200ad6e297220))
+
+
+
+
+
 ## [1.85.3](https://github.com/SocialGouv/linters/compare/v1.85.2...v1.85.3) (2021-08-25)
 
 
