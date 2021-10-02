@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.92.1](https://github.com/SocialGouv/linters/compare/v1.92.0...v1.92.1) (2021-10-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to ~7.26.1 ([#773](https://github.com/SocialGouv/linters/issues/773)) ([25faed3](https://github.com/SocialGouv/linters/commit/25faed311bcfd9e196656fd2aeee0f081e5998ff))
+
+
+
+
+
 # [1.92.0](https://github.com/SocialGouv/linters/compare/v1.91.0...v1.92.0) (2021-10-01)
 
 
