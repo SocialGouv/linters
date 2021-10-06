@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.92.2](https://github.com/SocialGouv/linters/compare/v1.92.1...v1.92.2) (2021-10-06)
+
+**Note:** Version bump only for package @socialgouv/eslint-config-typescript
+
+
+
+
+
 ## [1.92.1](https://github.com/SocialGouv/linters/compare/v1.92.0...v1.92.1) (2021-10-02)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-typescript
