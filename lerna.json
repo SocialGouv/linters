@@ -8,5 +8,5 @@
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.94.0"
+  "version": "1.95.0"
 }
