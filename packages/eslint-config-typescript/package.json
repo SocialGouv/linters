@@ -12,9 +12,9 @@
     "eslint-plugin-import": "~2.25.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "@babel/preset-typescript": "^7.15.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
     "@types/dedent": "^0.7.0",
     "@types/eslint": "^7.28.2",
     "@types/jest": "^27.0.2",
