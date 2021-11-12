@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.99.0](https://github.com/SocialGouv/linters/compare/v1.98.0...v1.99.0) (2021-11-12)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to ~6.5.1 ([#805](https://github.com/SocialGouv/linters/issues/805)) ([693ab1c](https://github.com/SocialGouv/linters/commit/693ab1c8ecbbdfbb923f0ee42a112c5d0cd95adc))
+
+
+
+
+
 # [1.98.0](https://github.com/SocialGouv/linters/compare/v1.97.3...v1.98.0) (2021-11-12)
 
 
