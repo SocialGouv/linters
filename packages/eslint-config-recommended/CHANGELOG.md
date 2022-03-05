@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.107.0](https://github.com/SocialGouv/linters/compare/v1.106.0...v1.107.0) (2022-03-05)
+
+
+### Features
+
+* **deps:** update dependency eslint-config-prettier to ~8.5.0 ([#836](https://github.com/SocialGouv/linters/issues/836)) ([954e3f5](https://github.com/SocialGouv/linters/commit/954e3f5023249e8602cc7739422e92be75eb9e9c))
+
+
+
+
+
 # [1.106.0](https://github.com/SocialGouv/linters/compare/v1.105.0...v1.106.0) (2022-02-28)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-recommended
