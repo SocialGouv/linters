@@ -4,7 +4,7 @@ exports[`fails with incorrect file 1`] = `
 "/eslint-config-react/__fixtures__/incorrect.js: line 7, col 25, Warning - Expected object keys to be in ascending order. 'a' should be before 'b'. (sort-keys-fix/sort-keys-fix)
 /eslint-config-react/__fixtures__/incorrect.js: line 15, col 37, Error - 'name' is missing in props validation (react/prop-types)
 /eslint-config-react/__fixtures__/incorrect.js: line 24, col 3, Error - img elements must have an alt prop, either with meaningful text, or an empty string for decorative images. (jsx-a11y/alt-text)
-/eslint-config-react/__fixtures__/incorrect.js: line 32, col 7, Error - React Hook \\"useState\\" is called in function \\"handleClick\\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. (react-hooks/rules-of-hooks)
+/eslint-config-react/__fixtures__/incorrect.js: line 32, col 7, Error - React Hook \\"useState\\" is called in function \\"handleClick\\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \\"use\\". (react-hooks/rules-of-hooks)
 
 4 problems"
 `;
