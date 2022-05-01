@@ -19,10 +19,10 @@
     "@types/eslint": "^7.29.0",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.12",
-    "babel-jest": "^27.4.5",
+    "babel-jest": "^28.0.0",
     "dedent": "^0.7.0",
     "eslint": "^7.32.0",
-    "jest": "^27.4.5",
+    "jest": "^28.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
