@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.118.0](https://github.com/SocialGouv/linters/compare/v1.117.0...v1.118.0) (2022-07-08)
+
+
+### Features
+
+* **deps:** update dependency eslint-import-resolver-typescript to ~3.2.0 ([#855](https://github.com/SocialGouv/linters/issues/855)) ([90de011](https://github.com/SocialGouv/linters/commit/90de011e71bee7fa0de7c6ada530e990f21b44ab))
+
+
+
+
+
 # [1.117.0](https://github.com/SocialGouv/linters/compare/v1.116.0...v1.117.0) (2022-07-02)
 
 **Note:** Version bump only for package @socialgouv/eslint-config-typescript
