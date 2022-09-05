@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.128.0](https://github.com/SocialGouv/linters/compare/v1.127.0...v1.128.0) (2022-09-05)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-simple-import-sort to v8 ([#866](https://github.com/SocialGouv/linters/issues/866)) ([0bbc780](https://github.com/SocialGouv/linters/commit/0bbc780dc072d5dd9ea11502ba714b869044e1d0))
+
+
+
+
+
 # [1.127.0](https://github.com/SocialGouv/linters/compare/v1.126.0...v1.127.0) (2022-08-31)
 
 
