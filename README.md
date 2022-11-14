@@ -114,3 +114,4 @@ $ CONVENTIONAL_GITHUB_RELEASER_TOKEN==************ npx conventional-github-relea
 [link-readme-react]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-react/README.md
 [link-readme-reco]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-recommended/README.md
 [link-readme-ts-reco]: https://github.com/SocialGouv/linters/blob/master/packages/eslint-config-typescript/README.md
+
