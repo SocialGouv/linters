@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.129.1](https://github.com/SocialGouv/linters/compare/v1.129.0...v1.129.1) (2022-11-14)
+
+
+### Bug Fixes
+
+* dummy ([f3f3425](https://github.com/SocialGouv/linters/commit/f3f3425dc008f56cc09fbd84f19ab902d47e2563))
+
+
+
+
+
 # [1.129.0](https://github.com/SocialGouv/linters/compare/v1.128.0...v1.129.0) (2022-10-07)
 
 
